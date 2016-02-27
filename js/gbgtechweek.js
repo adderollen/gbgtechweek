@@ -13,7 +13,7 @@ $(document).ready(function() {
 	var width = window.innerWidth;
     $('.logo-row').addClass('logo-row-animate');
     $('.logo-row .content').addClass('logo-row-content-animate')
-    $('.top-bar').addClass('top-bar-animate')
+    $('.menu').addClass('top-bar-animate')
     $('.page').addClass('visible-page')
 })
 
