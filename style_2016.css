@@ -35,6 +35,7 @@ p {
 
 a {
 	display: inline-block;
+	text-decoration: none;
 }
 
 a.button {
@@ -42,7 +43,6 @@ a.button {
 	color: #1895D5;
 	padding: 1.2em;
 	border-radius: 16px;
-	text-decoration: none;
 	margin: 1em;
 	border: 2px solid;
 	border-color: transparent;
@@ -53,6 +53,17 @@ a.button:hover {
 	color: white;
 	background-color: #1895D5;
 	border-color: white;
+}
+
+a.button.reversed {
+	background-color: #1895D5;
+	color: white;
+}
+
+a.button.reversed:hover {
+	color: #1895D5;
+	background-color: white;
+	border-color: #1895D5;
 }
 
 /* Menu */
@@ -221,3 +232,121 @@ a.button:hover {
 	margin: 0;
 }
 
+.events-row {
+	background: white;
+}
+
+.event-day-container {
+	padding-top: 2em;
+}
+
+.event-day-container h1 {
+	text-align: center;
+}
+
+.single-event .event-container {
+	display: flex;
+	align-items: center;
+}
+
+.single-event .event-body {
+	width: 50%;
+}
+
+.event-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.event-header h1 {
+	margin: 0;
+}
+
+.event-info {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.single-event .event-image {
+	width: 50%;
+}
+
+.event-image img {
+	width: 100%;
+}
+
+.event-header img {
+	margin-right: 1.5em;
+}
+
+.double-event .events {
+	display: flex;
+}
+
+.double-event .event-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	min-height: 400px;
+	transition: flex-grow 0.3s;
+	padding: 1em;
+}
+
+.double-event .event-container:nth-child(odd) {
+	background: #f4f4f4;
+}	
+
+.events:hover .event-container {
+	opacity: 0.5;
+	max-width: 200px;
+}
+
+.events:hover .event-container:hover {
+	opacity: 1;
+	flex-grow: 10;
+	max-width: none;
+}
+.events:hover .event-container .event-header img {
+	transform: scale(0.6);
+}
+
+.events:hover .event-container .event-header h2 {
+	font-size: 2rem;
+}
+
+.events:hover .event-container:hover .event-header img {
+	transform: scale(1);
+}
+
+.events:hover .event-container:hover .event-header h2 {
+	font-size: 2.5rem;
+}
+
+
+.events:hover .event-container:hover .event-image,
+.events:hover .event-container:hover .event-info {
+	display: block;
+}
+
+.events:hover .event-container:hover .event-body,
+.events:hover .event-container:hover .event-image {
+	width: 50%;
+}
+
+.double-event .event-header {
+	flex-direction: column;
+}
+
+.double-event .event-header img {
+	margin: 0;
+}
+
+.double-event .event-image {
+	display: none;
+}
+
+.double-event .event-info {
+	display: none;
+}
