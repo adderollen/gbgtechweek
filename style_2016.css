@@ -104,7 +104,8 @@ a.button.reversed:hover {
 	position: fixed;
 	height: 78vh;
 	width: 100%;
-	background-size: 100%;
+	background-size: 120%;
+	background-position-x: 50%;
 	background-image: url('img/32173048.jpg');
 	background-repeat: no-repeat;
 	text-align: center;
@@ -134,7 +135,7 @@ a.button.reversed:hover {
 .main-info,
 .sub-info {
 	display: flex;
-	flex-direction: horizontal;
+	flex-direction: row;
 	align-items: baseline;
 }
 
@@ -153,12 +154,12 @@ a.button.reversed:hover {
 	position: relative;
 }
 
-.techweek2016-row {
+.techweek2015-row {
 	position: relative;
 	color: white;
 }
 
-.techweek2016-row .header {
+.techweek2015-row .header {
 	font-size: 5rem;
 	z-index: 2;
 	text-align: center;
@@ -170,20 +171,20 @@ a.button.reversed:hover {
 	position: absolute;
 }
 
-.techweek2016-grid {
+.techweek2015-grid {
 	width: 100vw;
 	position: relative;
 	overflow: hidden;
 }
 
-.techweek2016-grid div {
+.techweek2015-grid div {
 	position: relative;
 	float: left;
 	width: 50%;
 	text-align: center;
 }
 
-.techweek2016-grid .shadow {
+.techweek2015-grid .shadow {
 	position: absolute;
 	width: 100%;
 	display: block;
@@ -191,34 +192,34 @@ a.button.reversed:hover {
 	top: 0;
 }
 
-.techweek2016-grid #connect2015 .shadow {
+.techweek2015-grid #connect2015 .shadow {
     background: rgba(0,0,0,0.5);
 }
-.techweek2016-grid #suh2015 .shadow {
+.techweek2015-grid #suh2015 .shadow {
     background: rgba(0,0,0,0.6);
 }
-.techweek2016-grid #venturecup2015 .shadow {
+.techweek2015-grid #venturecup2015 .shadow {
     background: rgba(0,0,0,0.6);
 }
-.techweek2016-grid #tedx2015 .shadow {
+.techweek2015-grid #tedx2015 .shadow {
     background: rgba(0,0,0,0.6);
 }
 
-.techweek2016-grid div img {
+.techweek2015-grid div img {
 	z-index: -1;
 	vertical-align: top;
 	position: relative;
 	width: 100%;
 }
 
-.techweek2016-grid div span {
+.techweek2015-grid div span {
 	background: rgba(0,0,0,0.6);
 	height: 100%;
 	width: 100%;
 	position: absolute;
 }
 
-.techweek2016-grid div .text {
+.techweek2015-grid div .text {
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -227,8 +228,8 @@ a.button.reversed:hover {
 	position: absolute;
 }
 
-.techweek2016-grid div .text h1,
-.techweek2016-grid div .text h3 {
+.techweek2015-grid div .text h1,
+.techweek2015-grid div .text h3 {
 	margin: 0;
 }
 
@@ -292,6 +293,7 @@ a.button.reversed:hover {
 	min-height: 400px;
 	transition: flex-grow 0.3s;
 	padding: 1em;
+	transition: background .2s, opacity .2s, max-width .2s, flex-grow .2s;
 }
 
 .double-event .event-container:nth-child(odd) {
@@ -310,10 +312,12 @@ a.button.reversed:hover {
 }
 .events:hover .event-container .event-header img {
 	transform: scale(0.6);
+	transition: transform .2s;
 }
 
 .events:hover .event-container .event-header h2 {
 	font-size: 2rem;
+	transition: font-size .2s;
 }
 
 .events:hover .event-container:hover .event-header img {
@@ -330,6 +334,11 @@ a.button.reversed:hover {
 	display: block;
 }
 
+.events .event-container .event-body,
+.events .event-container .event-image {
+	transition: width .2s;
+}
+
 .events:hover .event-container:hover .event-body,
 .events:hover .event-container:hover .event-image {
 	width: 50%;
@@ -337,6 +346,7 @@ a.button.reversed:hover {
 
 .double-event .event-header {
 	flex-direction: column;
+	transition: flex-direction .2s;
 }
 
 .double-event .event-header img {
@@ -345,8 +355,127 @@ a.button.reversed:hover {
 
 .double-event .event-image {
 	display: none;
+	transition: display .2s;
+
 }
 
 .double-event .event-info {
-	display: none;
+	display: none;	
+	transition: display .2s;
+}
+
+.event-organizer {
+	display: block;
+	margin-top: 0;
+}
+
+#contact a,
+footer a {
+	color: #008cba;
+}
+
+footer {
+	margin-top: -3em;
+}
+
+@media screen and (max-width: 700px) {
+
+	h1.big {
+		font-size: 2.5rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		margin-bottom: 0;
+	}
+
+	.menu ul li a {
+		padding: 1em 0.9em;
+		border-bottom: 2px solid;
+		border-color: transparent;
+	}
+
+	.menu ul li a:hover {
+		border-color: white;
+	}
+
+	.menu h4 {
+		margin: 0;
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	.logo-row {
+		background-size: 350%;
+		background-position-x: 47%;
+	}
+
+	.logo-row img {
+		width: 70%;
+	}
+
+	.info-row {
+		padding: 1em 1em 2em 1em;
+	}
+
+	.main-info,
+	.sub-info {
+		flex-direction: column;
+	}
+
+	.double-event .events {
+		flex-direction: column;
+	}
+
+	.events h2 {
+		text-align: center;
+	}
+	.double-event .event-container:nth-child(odd) {
+		background: white;
+	}	
+
+	.events:hover .event-container {
+		opacity: 1;
+		max-width: initial;
+	}
+
+	.events:hover .event-container:hover {
+		opacity: 1;
+		flex-grow: initial;
+		max-width: initial;
+	}
+	.events:hover .event-container .event-header img {
+		transform: initial;
+	}
+	.events:hover .event-container:hover .event-header h2 {
+		font-size: 2.5rem;
+	}
+
+	.double-event .event-image {
+		display: none;
+	}
+
+	.double-event .event-info {
+		display: block;	
+	}
+
+	.events .event-container .event-image {
+		display: none;
+	}
+
+	.events:hover .event-container:hover .event-image {
+		display: none;
+	}
+
+	.event-info {
+		width: 85%;
+	}
+
+	.events:hover .event-container:hover .event-body {
+		width: 85%;
+	}
+
 }
