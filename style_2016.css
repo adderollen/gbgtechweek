@@ -154,6 +154,26 @@ a.button.reversed:hover {
 	position: relative;
 }
 
+.release-soon {
+	text-align: center;
+	padding: 6em 10%;
+	background: #1895D5;
+	color: white;
+	border-top: 5px solid white;
+
+}
+
+
+.release-soon h2 {
+	margin: 0;
+}
+
+.release-soon h1 {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+
 .techweek2015-row {
 	position: relative;
 	color: white;
@@ -193,16 +213,16 @@ a.button.reversed:hover {
 }
 
 .techweek2015-grid #connect2015 .shadow {
-    background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.5);
 }
 .techweek2015-grid #suh2015 .shadow {
-    background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.6);
 }
 .techweek2015-grid #venturecup2015 .shadow {
-    background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.6);
 }
 .techweek2015-grid #tedx2015 .shadow {
-    background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.6);
 }
 
 .techweek2015-grid div img {
@@ -476,6 +496,10 @@ footer {
 
 	.events:hover .event-container:hover .event-body {
 		width: 85%;
+	}
+
+	.techweek2015-row {
+		display: none;
 	}
 
 }
