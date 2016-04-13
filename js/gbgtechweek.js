@@ -44,6 +44,7 @@ $('.event-text-container svg').click(function(evt) {
     
 })
 
+
 var waypointLogo = $('#logo').waypoint({
   handler: function(direction) {
     history.pushState(null,null,'')
@@ -87,11 +88,30 @@ var waypointEventSummary = $('#events').waypoint({
 offset: '50%'
 })
 
+/*
 var waypointContact = $('#contact').waypoint({
   handler: function(direction) {
+    console.log("asdf")
     $('.contact-row h2').toggleClass('contact-animate-h2');
     $('.contact-row h1').toggleClass('contact-animate-h1');
     
-  },
-  offset: '80%'
+  }
+})
+
+*/
+
+var eventDay = "";
+
+$('.events-menu li').click(function(evt) {
+  if ($(evt.currentTarget).attr('name') != eventDay) {
+    if (eventDay === "") {
+      $('.event-list li').toggleClass('hide')
+    } else {
+      $('.event-list .'+eventDay).toggleClass('hide');
+      $('.events-menu li[name='+eventDay+']').toggleClass('active-day')
+    }
+    eventDay = $(evt.currentTarget).attr('name');
+    $('.event-list .'+eventDay).toggleClass('hide');
+    $(evt.currentTarget).toggleClass('active-day');
+  }
 })

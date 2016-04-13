@@ -94,10 +94,10 @@ p, .button {
   min-height: 50vh;
   margin-top: 0;
   padding-top: 4em;
-  background: white;
+  background: rgba(255, 255, 255, 0.92);
   color: white;
   z-index: 2;
-  padding-bottom: 2em;
+  padding-bottom: 7em;
   text-align: center;
 }
 .cal-button {
@@ -252,7 +252,7 @@ p, .button {
   margin-top: 4px;
   line-height: 1;
   color: black;
-  margin-left: 0.7em;
+/*  margin-left: 0.7em;*/
 }
 
 .event-timeline-object.below-timeline p {
@@ -263,16 +263,15 @@ p, .button {
 
 .event-timeline-object:nth-child(3),
 .event-timeline-object:nth-child(5),
-.event-timeline-object:nth-child(7),
-.event-timeline-object:nth-child(9){
+.event-timeline-object:nth-child(7){
   left: -1px;
   bottom: -347px;
 }
 
 .event-timeline-object:nth-child(4),
 .event-timeline-object:nth-child(6),
-.event-timeline-object:nth-child(8),
-.event-timeline-object:nth-child(10) {
+.event-timeline-object:nth-child(7),
+.event-timeline-object:nth-child(8) {
   left: -3px;
 }
 
@@ -290,6 +289,7 @@ p, .button {
   transition: opacity .15s ease-in-out, transform .5s ease-in-out; 
 }
 
+.event-timeline-object:nth-child(3) a:nth-child(5),
 .event-timeline-object:nth-child(5) a:nth-child(5),
 .event-timeline-object:nth-child(7) a:nth-child(5) {
   -webkit-transform: translate(0,-200px);
@@ -301,30 +301,32 @@ p, .button {
   transform: translate(0,-300px);
 }
 
-.event-timeline-object:nth-child(6) a:nth-child(1) {
+.event-timeline-object:nth-child(8) a:nth-child(1) {
   -webkit-transform: translate(0,300px);
   transform: translate(0,300px);
 }
 
-.event-timeline-object:nth-child(6) a:nth-child(2),
-.event-timeline-object:nth-child(8) a:nth-child(1) {
+.event-timeline-object:nth-child(2) a:nth-child(1),
+.event-timeline-object:nth-child(4) a:nth-child(1),
+.event-timeline-object:nth-child(8) a:nth-child(2) {
   -webkit-transform: translate(0,200px);
   transform: translate(0,200px);
 }
 
-.event-timeline-object:nth-child(2) a:nth-child(1),
-.event-timeline-object:nth-child(4) a:nth-child(1),
-.event-timeline-object:nth-child(6) a:nth-child(3),
-.event-timeline-object:nth-child(8) a:nth-child(2) {
+.event-timeline-object:nth-child(2) a:nth-child(2),
+.event-timeline-object:nth-child(4) a:nth-child(2),
+.event-timeline-object:nth-child(5) a:nth-child(3),
+.event-timeline-object:nth-child(6) a:nth-child(1),
+.event-timeline-object:nth-child(8) a:nth-child(3) {
   -webkit-transform: translate(0,100px);
   transform: translate(0,100px);
 }
 
 
-.event-timeline-object:nth-child(9) a:nth-child(4),
 .event-timeline-object:nth-child(3) a:nth-child(4),
 .event-timeline-object:nth-child(5) a:nth-child(4),
-.event-timeline-object:nth-child(7) a:nth-child(4) {
+.event-timeline-object:nth-child(7) a:nth-child(4),
+.event-timeline-object:nth-child(9) a:nth-child(4) {
   -webkit-transform: translate(0,-100px);
   transform: translate(0,-100px);
 }
@@ -426,26 +428,32 @@ p, .button {
 }
 
 /* changed */
-.small-event-timeline-container .event-timeline-object:nth-child(6) p,
-.small-event-timeline-container .event-timeline-object:nth-child(8) p,
-.small-event-timeline-container .event-timeline-object:nth-child(9) p{
+.small-event-timeline-container .event-timeline-object:nth-child(7) p,
+.small-event-timeline-container .event-timeline-object:nth-child(8) p {
   margin-top: 28px;
 
 }
 /* changed */
-.small-event-timeline-container .event-timeline-object:nth-child(6) .event-timeline-svg-container,
-.small-event-timeline-container .event-timeline-object:nth-child(8) .event-timeline-svg-container,
-.small-event-timeline-container .event-timeline-object:nth-child(9) .event-timeline-svg-container{
+.small-event-timeline-container .event-timeline-object:nth-child(7) .event-timeline-svg-container,
+.small-event-timeline-container .event-timeline-object:nth-child(8) .event-timeline-svg-container{
   margin-top: 40px;
+}
+
+.small-event-timeline-container .event-timeline-object:nth-child(9) .event-timeline-svg-container{
+  margin-top: 135px;
 }
 
 /* changed */
 .small-event-timeline-container .event-timeline-object:nth-child(3) p,
 .small-event-timeline-container .event-timeline-object:nth-child(4) p,
 .small-event-timeline-container .event-timeline-object:nth-child(5) p,
-.small-event-timeline-container .event-timeline-object:nth-child(7) p,
-.small-event-timeline-container .event-timeline-object:nth-child(10) p {
+.small-event-timeline-container .event-timeline-object:nth-child(6) p {
   margin-top: 73px;
+
+}
+
+.small-event-timeline-container .event-timeline-object:nth-child(9) p {
+  margin-top: 119px;
 
 }
 
@@ -453,8 +461,7 @@ p, .button {
 .small-event-timeline-container .event-timeline-object:nth-child(3) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(4) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(5) .event-timeline-svg-container,
-.small-event-timeline-container .event-timeline-object:nth-child(7) .event-timeline-svg-container,
-.small-event-timeline-container .event-timeline-object:nth-child(10) .event-timeline-svg-container {
+.small-event-timeline-container .event-timeline-object:nth-child(6) .event-timeline-svg-container{
   margin-top: 85px;
 }
 
@@ -485,7 +492,7 @@ p, .button {
   min-height: 50vh;
   padding-left: 4vw;
   padding-right: 4vw;
-  background: white;
+  background: rgba(255, 255, 255, 0.92);
   padding-bottom: 4em;
 }
 
@@ -543,7 +550,6 @@ p, .button {
 /* Footer */
 
 footer {
-  background: white;
   height: 3em;
 }
 
