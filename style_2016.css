@@ -309,7 +309,7 @@ a.button.reversed:hover {
 	flex: 1;
 	text-align: center;
 	cursor: pointer;
-	background: rgba(24, 149, 213, 0.8);
+	background: rgba(100, 100, 100, 0.8);
 	color: white;
 	-webkit-transition: background .2s, color .2s;
 	-moz-transition: background .2s, color .2s;
@@ -330,6 +330,13 @@ a.button.reversed:hover {
 .events-menu li:hover p {
 	color: rgba(24, 149, 213, 0.8);
 }
+
+
+.active-day {
+	background: rgba(255, 255, 255, 0.92) !important;
+	color: rgba(24, 149, 213, 0.8) !important;
+}
+
 
 .event-list {
 	
@@ -462,11 +469,6 @@ a.button.reversed:hover {
 	display: none !important;
 }
 
-.active-day {
-	background: rgba(255, 255, 255, 0.92) !important;
-	color: rgba(24, 149, 213, 0.8) !important;
-}
-
 
 
 
@@ -476,8 +478,26 @@ footer a {
 }
 
 footer {
-	margin-top: -3em;
+  height: 8em;
+}
+
+footer {
+	margin-top: -8em;
 	background-color: transparent;
+}
+
+.footer-img-link {
+	margin-bottom: 1em;
+
+}
+
+footer .content .footer-img-link:hover {
+	text-decoration: none;
+	border-color: transparent;
+}
+
+footer img {
+	width: 40%;
 }
 
 @media screen and (max-width: 1200px) {

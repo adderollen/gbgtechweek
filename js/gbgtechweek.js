@@ -1,5 +1,5 @@
 var $root = $('html, body');
-$('a').click(function() {
+$('.menu a').click(function() {
     var href = $.attr(this, 'href');
     $root.animate({
         scrollTop: $(href).offset().top
@@ -27,22 +27,68 @@ $('.event-timeline-object a').hover(
     }
 )
 
-$('.event-text-container svg').click(function(evt) {
-    console.log($(evt.currentTarget).attr('class') == 'active')
-    if($(evt.currentTarget).attr('class') == 'active') {
-    } else {
-        $(evt.currentTarget.parentNode.children[0]).toggleClass('inactive')
-        $(evt.currentTarget.parentNode.children[1]).toggleClass('active')
-        if(evt.currentTarget === evt.currentTarget.parentNode.children[2]) {
-            $(evt.currentTarget.parentNode.children[2]).attr('class', 'active')
-            $(evt.currentTarget.parentNode.children[3]).attr('class', '')
-        } else {
-            $(evt.currentTarget.parentNode.children[2]).attr('class', '')
-            $(evt.currentTarget.parentNode.children[3]).attr('class', 'active')
-        }
-    }
-    
+$('.event-timeline-container a').click(function(evt) {
+  evt.preventDefault();
+  var href = $.attr(this, 'href');
+  switch(href) {
+    case "#uf":
+      switchDay("thursday")
+      break;
+    case "#venturecup":
+      switchDay("thursday")
+      break;
+    case "#drivhuset":
+      switchDay("friday")
+      break;
+    case "#goglobal":
+      switchDay("firday")
+      break;
+    case "#startuphack":
+      switchDay("saturday")
+      break;
+    case "#startuparena":
+      switchDay("saturday")
+      break;
+    case "#almi":
+      switchDay("monday")
+      break;
+    case "#tedx":
+      switchDay("monday")
+      break;
+    case "#vhk":
+      switchDay("tuesday")
+      break;
+    case "#dragonsden":
+      switchDay("wednesday")
+      break;
+    case "#connect":
+      switchDay("thursdayTwo")
+      break;
+    case "#builtforexit":
+      switchDay("thursdayTwo")
+      break;
+    case "#afterparty":
+      switchDay("thursdayTwo")
+      break;
+  }
+  $root.animate({
+        scrollTop: $(href).offset().top
+    }, 1000, function () {
+        window.location.hash = href;
+    });
 })
+
+var switchDay = function(day) {
+  if (eventDay === "") {
+      $('.event-list li').toggleClass('hide')
+    } else {
+      $('.event-list .'+eventDay).toggleClass('hide');
+      $('.events-menu li[name='+eventDay+']').toggleClass('active-day')
+    }
+    eventDay = day;
+    $('.event-list .'+eventDay).toggleClass('hide');
+    $('.events-menu li[name='+eventDay+']').toggleClass('active-day');
+}
 
 
 var waypointLogo = $('#logo').waypoint({
@@ -100,7 +146,14 @@ var waypointContact = $('#contact').waypoint({
 
 */
 
-var eventDay = "";
+var eventDay = "thursday";
+
+$(document).ready(function() {
+  $('.event-list li').toggleClass('hide');
+  $('.event-list .'+eventDay).toggleClass('hide');
+  $('.events-menu li[name='+eventDay+']').toggleClass('active-day')
+})
+
 
 $('.events-menu li').click(function(evt) {
   if ($(evt.currentTarget).attr('name') != eventDay) {

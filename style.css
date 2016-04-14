@@ -493,7 +493,7 @@ p, .button {
   padding-left: 4vw;
   padding-right: 4vw;
   background: rgba(255, 255, 255, 0.92);
-  padding-bottom: 4em;
+  padding-bottom: 8em;
 }
 
 .contact-row .content {
@@ -548,10 +548,6 @@ p, .button {
 }
 
 /* Footer */
-
-footer {
-  height: 3em;
-}
 
 footer .content {
   text-align: center;
