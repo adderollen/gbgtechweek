@@ -27,56 +27,60 @@ $('.event-timeline-object a').hover(
     }
 )
 
-$('.event-timeline-container a').click(function(evt) {
+$('.event-timeline-object a').click(function(evt) {
   evt.preventDefault();
   var href = $.attr(this, 'href');
-  switch(href) {
-    case "#uf":
-      switchDay("thursday")
-      break;
-    case "#venturecup":
-      switchDay("thursday")
-      break;
-    case "#drivhuset":
-      switchDay("friday")
-      break;
-    case "#goglobal":
-      switchDay("firday")
-      break;
-    case "#startuphack":
-      switchDay("saturday")
-      break;
-    case "#startuparena":
-      switchDay("saturday")
-      break;
-    case "#almi":
-      switchDay("monday")
-      break;
-    case "#tedx":
-      switchDay("monday")
-      break;
-    case "#vhk":
-      switchDay("tuesday")
-      break;
-    case "#dragonsden":
-      switchDay("wednesday")
-      break;
-    case "#connect":
-      switchDay("thursdayTwo")
-      break;
-    case "#builtforexit":
-      switchDay("thursdayTwo")
-      break;
-    case "#afterparty":
-      switchDay("thursdayTwo")
-      break;
+  if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
+    switch(href) {
+      case "#uf":
+        switchDay("thursday")
+        break;
+      case "#venturecup":
+        switchDay("thursday")
+        break;
+      case "#drivhuset":
+        switchDay("friday")
+        break;
+      case "#goglobal":
+        switchDay("friday")
+        break;
+      case "#startuphack":
+        switchDay("saturday")
+        break;
+      case "#startuparena":
+        switchDay("saturday")
+        break;
+      case "#almi":
+        switchDay("monday")
+        break;
+      case "#tedx":
+        switchDay("monday")
+        break;
+      case "#vhk":
+        switchDay("tuesday")
+        break;
+      case "#dragonsden":
+        switchDay("wednesday")
+        break;
+      case "#connect":
+        switchDay("thursdayTwo")
+        break;
+      case "#builtforexit":
+        switchDay("thursdayTwo")
+        break;
+      case "#afterparty":
+        switchDay("thursdayTwo")
+        break;
+    }
   }
+
   $root.animate({
         scrollTop: $(href).offset().top
     }, 1000, function () {
         window.location.hash = href;
     });
 })
+
 
 var switchDay = function(day) {
   if (eventDay === "") {
@@ -149,9 +153,11 @@ var waypointContact = $('#contact').waypoint({
 var eventDay = "thursday";
 
 $(document).ready(function() {
-  $('.event-list li').toggleClass('hide');
-  $('.event-list .'+eventDay).toggleClass('hide');
-  $('.events-menu li[name='+eventDay+']').toggleClass('active-day')
+  if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
+    $('.event-list li').toggleClass('hide');
+    $('.event-list .'+eventDay).toggleClass('hide');
+    $('.events-menu li[name='+eventDay+']').toggleClass('active-day')
+  }
 })
 
 
