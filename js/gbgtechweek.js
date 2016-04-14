@@ -12,8 +12,8 @@ $('.menu a').click(function() {
 $(document).ready(function() {
 	var width = window.innerWidth;
     $('.logo-row').addClass('logo-row-animate');
-    $('.logo-row .content').addClass('logo-row-content-animate')
-    $('.menu').addClass('top-bar-animate')
+    $('.logo-row > *').addClass('logo-row-content-animate');
+    $('.menu').addClass('menu-animate')
     $('.page').addClass('visible-page')
 })
 
