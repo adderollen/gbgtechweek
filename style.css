@@ -308,6 +308,7 @@ p, .button {
 
 .event-timeline-object:nth-child(2) a:nth-child(1),
 .event-timeline-object:nth-child(4) a:nth-child(1),
+.event-timeline-object:nth-child(6) a:nth-child(1),
 .event-timeline-object:nth-child(8) a:nth-child(2) {
   -webkit-transform: translate(0,200px);
   transform: translate(0,200px);
@@ -316,7 +317,7 @@ p, .button {
 .event-timeline-object:nth-child(2) a:nth-child(2),
 .event-timeline-object:nth-child(4) a:nth-child(2),
 .event-timeline-object:nth-child(5) a:nth-child(3),
-.event-timeline-object:nth-child(6) a:nth-child(1),
+.event-timeline-object:nth-child(6) a:nth-child(2),
 .event-timeline-object:nth-child(8) a:nth-child(3) {
   -webkit-transform: translate(0,100px);
   transform: translate(0,100px);
@@ -428,13 +429,13 @@ p, .button {
 }
 
 /* changed */
-.small-event-timeline-container .event-timeline-object:nth-child(7) p,
+
 .small-event-timeline-container .event-timeline-object:nth-child(8) p {
   margin-top: 28px;
 
 }
 /* changed */
-.small-event-timeline-container .event-timeline-object:nth-child(7) .event-timeline-svg-container,
+
 .small-event-timeline-container .event-timeline-object:nth-child(8) .event-timeline-svg-container{
   margin-top: 40px;
 }
@@ -447,7 +448,8 @@ p, .button {
 .small-event-timeline-container .event-timeline-object:nth-child(3) p,
 .small-event-timeline-container .event-timeline-object:nth-child(4) p,
 .small-event-timeline-container .event-timeline-object:nth-child(5) p,
-.small-event-timeline-container .event-timeline-object:nth-child(6) p {
+.small-event-timeline-container .event-timeline-object:nth-child(6) p,
+.small-event-timeline-container .event-timeline-object:nth-child(7) p {
   margin-top: 73px;
 
 }
@@ -461,7 +463,8 @@ p, .button {
 .small-event-timeline-container .event-timeline-object:nth-child(3) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(4) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(5) .event-timeline-svg-container,
-.small-event-timeline-container .event-timeline-object:nth-child(6) .event-timeline-svg-container{
+.small-event-timeline-container .event-timeline-object:nth-child(6) .event-timeline-svg-container,
+.small-event-timeline-container .event-timeline-object:nth-child(7) .event-timeline-svg-container {
   margin-top: 85px;
 }
 

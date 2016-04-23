@@ -254,7 +254,7 @@ a.button.reversed:hover {
 	margin: 0 auto;
 	width: 100%;
 	opacity: 0;
-	cursor: default;
+	cursor: pointer;
 	color: white;
 	-webkit-transition: opacity .3s;
 	-moz-transition: opacity .3s;
@@ -658,6 +658,7 @@ footer img {
 	}
 	.event-header h2 {
 		padding-right: 0;
+		padding: 0 0.5em;
 	}
 
 	.event-header img {

@@ -27,9 +27,19 @@ $('.event-timeline-object a').hover(
     }
 )
 
+$('.key-persons a').click(function(evt) {
+  evt.preventDefault();
+  var href = $.attr(this, 'href');
+  daySwitchClick(href);
+})
+
 $('.event-timeline-object a').click(function(evt) {
   evt.preventDefault();
   var href = $.attr(this, 'href');
+  daySwitchClick(href);
+})
+
+var daySwitchClick = function(href) {
   if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
     switch(href) {
       case "#uf":
@@ -59,6 +69,9 @@ $('.event-timeline-object a').click(function(evt) {
       case "#vhk":
         switchDay("tuesday")
         break;
+      case "#startupgrind":
+        switchDay("tuesday")
+        break;
       case "#dragonsden":
         switchDay("wednesday")
         break;
@@ -79,8 +92,7 @@ $('.event-timeline-object a').click(function(evt) {
     }, 1000, function () {
         window.location.hash = href;
     });
-})
-
+}
 
 var switchDay = function(day) {
   if (eventDay === "") {
