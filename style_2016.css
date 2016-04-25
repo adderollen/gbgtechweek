@@ -234,20 +234,103 @@ a.button.reversed:hover {
 	position: relative;
 }
 
-.key-persons {
+.social-links-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
-	flex-wrap: wrap;
+	-webkit-justify-content: center;
 	justify-content: center;
 }
 
-.person {
+.social-links-container a {
+	margin: 1em;
+	
+	height: 4em;
+  width: 4em;
+  background-repeat: no-repeat;
+}
+
+.social-links-container a.fb {
+	background: url('img/fb.png');
+}
+
+.social-links-container a.fb:hover {
+	background: url('img/fb_blue.png');
+}
+
+.social-links-container a.insta {
+	background: url('img/insta.png');
+}
+.social-links-container a.insta:hover {
+	background: url('img/insta_blue.png');
+}
+
+.social-links-container a.twitter {
+	background: url('img/twitter.png');
+}
+.social-links-container a.twitter:hover {
+	background: url('img/twitter_blue.png');
+}
+
+.key-persons {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.organizer-section h2 {
+	color: #1895D5;
+	opacity: 1;
+	transform: none;
+	padding-top: 1em;
+	margin-top: 0;
+}
+
+.organizer-group {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 2em 1em;
+}
+
+.person,
+.organizer {
 	position: relative;
 	text-align: center;
 	display: inherit;
 	background: black;
 }
 
-.person p {
+.organizer {
+	    border: 5px solid white;
+    box-shadow: 0px 0px 12px -4px;
+}
+
+.organizer,
+.organizer img {
+	border-radius: 100%;
+}
+
+.organizer a {
+	color: white !important;
+}
+
+.person p,
+.organizer p {
 	position: absolute;
 	top: 30%;
 	left: 0;
@@ -256,33 +339,37 @@ a.button.reversed:hover {
 	opacity: 0;
 	cursor: pointer;
 	color: white;
-	-webkit-transition: opacity .3s;
-	-moz-transition: opacity .3s;
-	-ms-transition: opacity .3s;
-	-o-transition: opacity .3s;
-	transition: opacity .3s;
+	-webkit-transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	-ms-transition: opacity .2s;
+	-o-transition: opacity .2s;
+	transition: opacity .2s;
 }
 
-.person:hover p {
+.person:hover p,
+.organizer:hover p {
 	opacity: 1;
 }
 
-.person img {
+.person img,
+.organizer img {
 	opacity: 1;
 	width: 250px;
 	height: 250px;
-	-webkit-transition: opacity .3s;
-	-moz-transition: opacity .3s;
-	-ms-transition: opacity .3s;
-	-o-transition: opacity .3s;
-	transition: opacity .3s;
+	-webkit-transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	-ms-transition: opacity .2s;
+	-o-transition: opacity .2s;
+	transition: opacity .2s;
 }
 
-.person:hover img {
+.person:hover img,
+.organizer:hover img {
 	opacity: 0.5;
 }
 
-.person .name {
+.person .name,
+.organizer .name {
 	font-weight: bold;
 	font-size: 1.1rem;
 }
@@ -559,11 +646,12 @@ footer a {
 
 footer {
 	height: 8em;
-}
-
-footer {
 	margin-top: -8em;
 	background-color: transparent;
+}
+
+#contact .content {
+	margin-bottom: 5em;
 }
 
 .footer-img-link {

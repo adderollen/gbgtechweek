@@ -499,10 +499,6 @@ p, .button {
   padding-bottom: 8em;
 }
 
-.contact-row .content {
-  padding-top: 15vh;
-}
-
 .contact-row h2 {
   position: relative;
   -webkit-transform: translate(-50px,0);
