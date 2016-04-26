@@ -63,8 +63,14 @@ var daySwitchClick = function(href) {
       case "#almi":
         switchDay("monday")
         break;
+      case "#greenchallenge":
+        switchDay("monday")
+        break;
       case "#tedx":
         switchDay("monday")
+        break;
+      case "#visualarena":
+        switchDay("tuesday")
         break;
       case "#vhk":
         switchDay("tuesday")

@@ -318,6 +318,7 @@ a.button.reversed:hover {
 .organizer {
 	    border: 5px solid white;
     box-shadow: 0px 0px 12px -4px;
+    margin: 1em 0;
 }
 
 .organizer,
