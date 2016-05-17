@@ -130,7 +130,7 @@ p, .button {
 
 .event-timeline-container {
   width: 95%;
-  height: 410px;
+  height: 524px;
   background: transparent;
   margin: 0 auto;
   margin-bottom: 22em;
@@ -265,7 +265,7 @@ p, .button {
 .event-timeline-object:nth-child(5),
 .event-timeline-object:nth-child(7){
   left: -1px;
-  bottom: -347px;
+  bottom: -460px;
 }
 
 .event-timeline-object:nth-child(4),
@@ -289,6 +289,22 @@ p, .button {
   transition: opacity .15s ease-in-out, transform .5s ease-in-out; 
 }
 
+.event-timeline-object:nth-child(6) a:nth-child(1) {
+  -webkit-transform: translate(0,400px);
+  transform: translate(0,400px);
+}
+
+.event-timeline-object:nth-child(3) a:nth-child(6),
+.event-timeline-object:nth-child(5) a:nth-child(6) {
+  -webkit-transform: translate(0,-300px);
+  transform: translate(0,-300px);
+}
+
+.event-timeline-object:nth-child(6) a:nth-child(2),
+.event-timeline-object:nth-child(8) a:nth-child(1) {
+  -webkit-transform: translate(0,300px);
+  transform: translate(0,300px);
+}
 .event-timeline-object:nth-child(3) a:nth-child(5),
 .event-timeline-object:nth-child(5) a:nth-child(5),
 .event-timeline-object:nth-child(7) a:nth-child(5) {
@@ -296,29 +312,17 @@ p, .button {
   transform: translate(0,-200px);
 }
 
-.event-timeline-object:nth-child(5) a:nth-child(6) {
-  -webkit-transform: translate(0,-300px);
-  transform: translate(0,-300px);
-}
-
-.event-timeline-object:nth-child(6) a:nth-child(1),
-.event-timeline-object:nth-child(8) a:nth-child(1) {
-  -webkit-transform: translate(0,300px);
-  transform: translate(0,300px);
-}
-
-.event-timeline-object:nth-child(2) a:nth-child(1),
 .event-timeline-object:nth-child(4) a:nth-child(1),
-.event-timeline-object:nth-child(6) a:nth-child(2),
+.event-timeline-object:nth-child(6) a:nth-child(3),
 .event-timeline-object:nth-child(8) a:nth-child(2) {
   -webkit-transform: translate(0,200px);
   transform: translate(0,200px);
 }
 
-.event-timeline-object:nth-child(2) a:nth-child(2),
+.event-timeline-object:nth-child(2) a:nth-child(1),
 .event-timeline-object:nth-child(4) a:nth-child(2),
 .event-timeline-object:nth-child(5) a:nth-child(3),
-.event-timeline-object:nth-child(6) a:nth-child(3),
+.event-timeline-object:nth-child(6) a:nth-child(4),
 .event-timeline-object:nth-child(8) a:nth-child(3) {
   -webkit-transform: translate(0,100px);
   transform: translate(0,100px);
@@ -432,47 +436,55 @@ p, .button {
 
 /* One event */
 
+.small-event-timeline-container .event-timeline-object:nth-child(3) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(8) .event-timeline-svg-container{
   margin-top: 40px;
 }
 
 /* Two events */
-.small-event-timeline-container .event-timeline-object:nth-child(3) .event-timeline-svg-container,
-.small-event-timeline-container .event-timeline-object:nth-child(4) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(5) .event-timeline-svg-container {
   margin-top: 85px;
 }
 
 /* Three events */
+.small-event-timeline-container .event-timeline-object:nth-child(4) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(6) .event-timeline-svg-container,
-.small-event-timeline-container .event-timeline-object:nth-child(7) .event-timeline-svg-container,
 .small-event-timeline-container .event-timeline-object:nth-child(9) .event-timeline-svg-container {
   margin-top: 135px;
 
 }
 
-/* One event */
+/* Four events */
+.small-event-timeline-container .event-timeline-object:nth-child(7) .event-timeline-svg-container {
+  margin-top: 176px;
+}
 
+/* One event */
+.small-event-timeline-container .event-timeline-object:nth-child(3) p,
 .small-event-timeline-container .event-timeline-object:nth-child(8) p {
   margin-top: 28px;
 
 }
 
 /* Two events */
-.small-event-timeline-container .event-timeline-object:nth-child(3) p,
-.small-event-timeline-container .event-timeline-object:nth-child(4) p,
 .small-event-timeline-container .event-timeline-object:nth-child(5) p {
   margin-top: 73px;
 
 }
 
 /* Three events */
+.small-event-timeline-container .event-timeline-object:nth-child(4) p,
 .small-event-timeline-container .event-timeline-object:nth-child(6) p,
-.small-event-timeline-container .event-timeline-object:nth-child(7) p,
 .small-event-timeline-container .event-timeline-object:nth-child(9) p {
   margin-top: 119px;
 
 }
+
+/* Four events */
+.small-event-timeline-container .event-timeline-object:nth-child(7) p {
+  margin-top: 162px;
+}
+
 
 
 
@@ -581,7 +593,7 @@ footer .content a:last-child {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
   .top-bar {
     height: 4em;
   }

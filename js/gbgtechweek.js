@@ -42,9 +42,6 @@ $('.event-timeline-object a').click(function(evt) {
 var daySwitchClick = function(href) {
   if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
     switch(href) {
-      case "#uf":
-        switchDay("thursday")
-        break;
       case "#venturecup":
         switchDay("thursday")
         break;
@@ -52,6 +49,9 @@ var daySwitchClick = function(href) {
         switchDay("friday")
         break;
       case "#goglobal":
+        switchDay("friday")
+        break;
+      case "#janssonnorin":
         switchDay("friday")
         break;
       case "#startuphack":
@@ -76,6 +76,9 @@ var daySwitchClick = function(href) {
         switchDay("tuesday")
         break;
       case "#startupgrind":
+        switchDay("tuesday")
+        break;
+      case "#gdl":
         switchDay("tuesday")
         break;
       case "#dragonsden":
@@ -168,7 +171,7 @@ var waypointContact = $('#contact').waypoint({
 
 */
 
-var eventDay = "thursday";
+var eventDay = "tuesday";
 
 $(document).ready(function() {
   if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {

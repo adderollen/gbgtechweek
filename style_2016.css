@@ -183,6 +183,7 @@ a.button.reversed:hover {
 
 .logo-row img {
 	width: 20%;
+	max-width: 400px;
 }
 
 .logo-row h1 {
@@ -246,33 +247,40 @@ a.button.reversed:hover {
 
 .social-links-container a {
 	margin: 1em;
-	
 	height: 4em;
   width: 4em;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .social-links-container a.fb {
-	background: url('img/fb.png');
+	background-image: url('img/fb.png');
 }
 
 .social-links-container a.fb:hover {
-	background: url('img/fb_blue.png');
+	background-image: url('img/fb_blue.png');
 }
 
 .social-links-container a.insta {
-	background: url('img/insta.png');
+	background-image: url('img/insta.png');
 }
 .social-links-container a.insta:hover {
-	background: url('img/insta_blue.png');
+	background-image: url('img/insta_blue.png');
 }
 
 .social-links-container a.twitter {
-	background: url('img/twitter.png');
+	background-image: url('img/twitter.png');
 }
 .social-links-container a.twitter:hover {
-	background: url('img/twitter_blue.png');
+	background-image: url('img/twitter_blue.png');
 }
+.social-links-container a.gbgtech {
+	background-image: url('img/gbgtech_solid.png');
+}
+.social-links-container a.gbgtech:hover {
+	background-image: url('img/gbgtech_trans.png');
+}
+
 
 .key-persons {
 	display: -webkit-box;
@@ -497,11 +505,14 @@ a.button.reversed:hover {
 	width: 30%;
 	padding: 1em;
 	display: inline-block;
+	min-width: 150px;
+	max-width: 300px;
 }
 
 .event-header h2 {
 	text-align: center;
 	padding-right: 1em;
+	max-width: 50%;
 }
 .event-info {
 	padding: 0 2em;
@@ -669,13 +680,15 @@ footer img {
 	width: 40%;
 }
 
-@media screen and (max-width: 1200px) {
-	.events-menu {
-		display: none;
+@media screen and (max-width: 700px) {
+	.event-header h2 {
+		max-width: 100%;
 	}
+
 }
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 1200px) {
 
 	h1.big {
 		font-size: 2.5rem;
@@ -703,7 +716,7 @@ footer img {
 	.menu h4 {
 		margin: 0;
 		text-align: center;
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 
 	.logo-row {
@@ -727,6 +740,10 @@ footer img {
 		flex-direction: column;
 	}
 
+	.main-info div {
+		padding: 0;
+	}
+
 	.key-persons {
 		display: none;
 	}
@@ -734,8 +751,13 @@ footer img {
 	.events h2 {
 		text-align: center;
 	}
+
 	
 	.techweek2015-row {
+		display: none;
+	}
+
+	.events-menu {
 		display: none;
 	}
 
