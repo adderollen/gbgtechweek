@@ -282,6 +282,7 @@ p, .button {
 
 .event-timeline-object a {
   display: block;
+  cursor: default;
   -webkit-transition: opacity .15s ease-in-out, -webkit-transform .5s ease-in-out;
   -moz-transition: opacity .15s ease-in-out, transform .5s ease-in-out;
   -ms-transition: opacity .15s ease-in-out, transform .5s ease-in-out;
@@ -666,6 +667,7 @@ footer .content a:last-child {
   .events-summary-row {
     padding-left: 4vw;
     padding-right: 4vw;
+    display: none;
   }
 
   .cal-button {

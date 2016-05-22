@@ -36,7 +36,7 @@ $('.key-persons a').click(function(evt) {
 $('.event-timeline-object a').click(function(evt) {
   evt.preventDefault();
   var href = $.attr(this, 'href');
-  daySwitchClick(href);
+  //daySwitchClick(href);
 })
 
 var daySwitchClick = function(href) {
