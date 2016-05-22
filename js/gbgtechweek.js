@@ -171,7 +171,7 @@ var waypointContact = $('#contact').waypoint({
 
 */
 
-var eventDay = "tuesday";
+var eventDay = "thursdayTwo";
 
 $(document).ready(function() {
   if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
