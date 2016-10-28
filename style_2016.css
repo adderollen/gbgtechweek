@@ -191,6 +191,15 @@ a.button.reversed:hover {
 	margin-top: 1em;
 }
 
+.logo-row p {
+	color: white;
+	margin-bottom: 0;
+  position: fixed;
+  left: 2px;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
 
 .logo-caption {
 	position: absolute;
@@ -589,7 +598,7 @@ a.button.reversed:hover {
 .techweek2015-grid div {
 	position: relative;
 	float: left;
-	width: 50%;
+	width: 49.5%;
 	text-align: center;
 }
 
