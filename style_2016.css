@@ -189,6 +189,7 @@ a.button.reversed:hover {
 .logo-row h1 {
 	color: white;
 	margin-top: 1em;
+	text-shadow: 0 0px 15px black;
 }
 
 .logo-row p {
@@ -208,6 +209,8 @@ a.button.reversed:hover {
 	font-size: 0.7rem;
 	color: rgb(24, 149, 213);
 }
+
+
 
 /* Info row */
 .main-info,
@@ -242,6 +245,50 @@ a.button.reversed:hover {
 	padding: 1em 3em 4em 3em;
 	z-index: 2;
 	position: relative;
+}
+
+.signup-container {
+	z-index: -2;
+  position: fixed;
+  bottom: 80px;
+  text-align: center;
+  width: 100%;
+ }
+
+.signup-container h1 {
+	color: white;
+	margin-top: 1em;
+	text-shadow: 0 0px 15px black;
+}
+
+.signup-container h2 {
+	color: white;
+	margin-top: 1em;
+	text-shadow: 0 0px 15px black;
+	display: none;
+}
+
+form#update-signup input {
+	padding: 0.5em;
+	font-size: 1.5rem;
+	box-shadow: 0px 0px 7px 0px black;
+  border: 2px solid rgba(24, 149, 213, 0.8);
+}
+
+form#update-signup input[type="email"] {
+  background: rgba(255,255,255,0.8);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  color: rgba(24, 149, 213, 1);
+}
+
+form#update-signup input[type="submit"] {
+  margin-left: -6px;
+  background: rgba(24, 149, 213, 0.8);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  cursor: pointer;
 }
 
 .social-links-container {
@@ -733,6 +780,10 @@ footer img {
 
 	.info-row {
 		padding: 1em 1em 2em 1em;
+	}
+
+	form#update-signup input {
+		font-size: 1rem;
 	}
 
 	.main-info,

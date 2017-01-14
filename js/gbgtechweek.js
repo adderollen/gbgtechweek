@@ -17,6 +17,41 @@ $(document).ready(function() {
     $('.page').addClass('visible-page')
 })
 
+function postToGoogle(){
+        let email = $('input[type="email"]').val();
+        $.ajax({
+            url: "http://docs.google.com/forms/d/1Bxfysoffg0kegvsdtqY_3KE6mhOV5LFO0l_xuiWOAvk/formResponse",
+            data: {"entry.435942832" : email},
+            type: "POST",
+            dataType: "xml",
+            statusCode: {
+                0: function (){
+                    $('input[type="email"]').val("");
+                    //Success message
+                    $('.signup-container h2').show();
+                    $('#update-signup').hide();
+                },
+                200: function (){
+                     $('input[type="email"]').val("");
+                    //Success Message
+                    $('.signup-container h2').show();
+                    $('#update-signup').hide();
+                }
+            }
+        });
+
+        
+}
+
+$('#update-signup').submit(function(evt) {
+  evt.preventDefault();
+  console.log("Enter function")
+  postToGoogle();
+    
+});
+
+
+
 $('.event-timeline-object a').hover(
     function(evt) {
        $('.event-timeline-object a').toggleClass('event-timeline-object-inactive')
