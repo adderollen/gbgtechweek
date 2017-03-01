@@ -138,14 +138,14 @@ a.button.reversed:hover {
 
 .logo-row {
 	position: fixed;
-	height: 78vh;
+	height: 83vh;
 	width: 100%;
 	background-size: 100%;
 	background-position-x: 50%;
 	background-image: url('img/gbgtechweek_banner.jpg');
 	background-repeat: no-repeat;
 	text-align: center;
-	padding-top: 22vh;
+	padding-top: 17vh;
 	opacity: 0;
 	-webkit-transition: opacity 1s;
 	-moz-transition: opacity 1s;
@@ -250,18 +250,23 @@ a.button.reversed:hover {
 .signup-container {
 	z-index: -2;
   position: fixed;
-  bottom: 80px;
+  bottom: 40px;
   text-align: center;
   width: 100%;
- }
+}
 
+.signup-container h3,
 .signup-container h1 {
 	color: white;
 	margin-top: 1em;
 	text-shadow: 0 0px 15px black;
 }
 
-.signup-container h2 {
+.signup-container h1 {
+	font-size: 4rem;
+}
+
+.signup-container .thanks {
 	color: white;
 	margin-top: 1em;
 	text-shadow: 0 0px 15px black;

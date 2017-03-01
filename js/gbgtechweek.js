@@ -28,13 +28,13 @@ function postToGoogle(){
                 0: function (){
                     $('input[type="email"]').val("");
                     //Success message
-                    $('.signup-container h2').show();
+                    $('.signup-container .thanks').show();
                     $('#update-signup').hide();
                 },
                 200: function (){
                      $('input[type="email"]').val("");
                     //Success Message
-                    $('.signup-container h2').show();
+                    $('.signup-container .thanks').show();
                     $('#update-signup').hide();
                 }
             }
