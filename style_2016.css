@@ -142,7 +142,7 @@ a.button.reversed:hover {
 	width: 100%;
 	background-size: 100%;
 	background-position-x: 50%;
-	background-image: url('img/gbgtechweek_banner.jpg');
+	background-image: url('img/banner_website_2017.jpg');
 	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 17vh;
@@ -213,19 +213,18 @@ a.button.reversed:hover {
 
 
 /* Info row */
-.main-info,
-.sub-info {
+.main-info {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-direction: row;
-	-moz-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-align-items: baseline;
-	align-items: baseline;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: center;
+	align-items: center;
 }
 
 .main-info div,
@@ -238,11 +237,15 @@ a.button.reversed:hover {
 	padding: 0 2em;
 }
 
+.main-info p {
+	font-size: 1.3rem;
+}
+
 .info-row {
 	text-align: center;
-	background: rgba(24, 149, 213, 0.8);
-	color: white;
-	padding: 1em 3em 4em 3em;
+	background: rgba(255,255,255,0.92);
+	color: rgb(29, 61, 77);
+	padding: 4em 25em 4em 25em;
 	z-index: 2;
 	position: relative;
 }
@@ -276,8 +279,7 @@ a.button.reversed:hover {
 form#update-signup input {
 	padding: 0.5em;
 	font-size: 1.5rem;
-	box-shadow: 0px 0px 7px 0px black;
-  border: 2px solid rgba(24, 149, 213, 0.8);
+  border: 2px solid #2196D3;
 }
 
 form#update-signup input[type="email"] {
@@ -289,7 +291,7 @@ form#update-signup input[type="email"] {
 
 form#update-signup input[type="submit"] {
   margin-left: -6px;
-  background: rgba(24, 149, 213, 0.8);
+  background: #2196D3;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   color: white;
@@ -308,38 +310,54 @@ form#update-signup input[type="submit"] {
 
 .social-links-container a {
 	margin: 1em;
-	height: 4em;
   width: 4em;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.social-links-container a.fb {
-	background-image: url('img/fb.png');
+  cursor: pointer;
+  padding-bottom: 10px;
+  border-bottom: 4px solid;
+  border-color: transparent;
 }
 
 .social-links-container a.fb:hover {
-	background-image: url('img/fb_blue.png');
+	border-color: #475993;
 }
 
-.social-links-container a.insta {
-	background-image: url('img/insta.png');
-}
 .social-links-container a.insta:hover {
-	background-image: url('img/insta_blue.png');
+	border-color: #DB8C3F;
 }
 
-.social-links-container a.twitter {
-	background-image: url('img/twitter.png');
-}
 .social-links-container a.twitter:hover {
-	background-image: url('img/twitter_blue.png');
+	border-color: #76A9EA;
 }
-.social-links-container a.gbgtech {
-	background-image: url('img/gbgtech_solid.png');
+
+.social-links-container a.linkedin:hover {
+	border-color: #0077B7;
 }
-.social-links-container a.gbgtech:hover {
-	background-image: url('img/gbgtech_trans.png');
+
+.social-links-container a img {
+	width: 100%;
+}
+
+#this-year {
+	background: rgba(44, 78, 95, 0.92);
+	position: relative;
+	color: white;
+}
+
+#this-year .content {
+	padding: 7em 0;
+	text-align: center;
+}
+
+.section-title {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+	margin: 0;
+	font-size: 4rem;
+}
+
+.create-launch-scale-image {
+	width: 100%;
 }
 
 .event-timeline-object a .caption {
@@ -348,7 +366,7 @@ form#update-signup input[type="submit"] {
   left: -0.5em;
   top: 0;
   margin: 0;
-  background: rgba(24, 149, 213, 0.8);
+  background: rgba(44, 78, 95, 0.92);
   padding: 0.5em;
   border-radius: 10px;
   opacity: 0;
@@ -372,7 +390,7 @@ form#update-signup input[type="submit"] {
 }
 
 .organizer-section h2 {
-	color: #1895D5;
+	color: rgb(29, 61, 77);
 	opacity: 1;
 	transform: none;
 	padding-top: 1em;
@@ -610,7 +628,6 @@ form#update-signup input[type="submit"] {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	display: flex;
 	-webkit-justify-content: center;	
 	justify-content: center;
 }
@@ -624,12 +641,13 @@ form#update-signup input[type="submit"] {
 	display: none !important;
 }
 
-.techweek2015-row {
-	position: relative;
+.previous-year-row {
+	width: 100%;
 	color: white;
+	position: relative;
 }
 
-.techweek2015-row .header {
+.previous-year-row .header {
 	font-size: 5rem;
 	z-index: 2;
 	text-align: center;
@@ -641,20 +659,24 @@ form#update-signup input[type="submit"] {
 	position: absolute;
 }
 
-.techweek2015-grid {
-	width: 100vw;
-	position: relative;
+.previous-year-grid {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 	overflow: hidden;
+	flex-wrap: wrap;
 }
 
-.techweek2015-grid div {
+.previous-year-grid div {
 	position: relative;
 	float: left;
-	width: 49.5%;
+	width: 50%;
 	text-align: center;
 }
 
-.techweek2015-grid .shadow {
+.previous-year-grid .shadow {
 	position: absolute;
 	width: 100%;
 	display: block;
@@ -662,34 +684,34 @@ form#update-signup input[type="submit"] {
 	top: 0;
 }
 
-.techweek2015-grid #connect2015 .shadow {
+.previous-year-grid #connect2015 .shadow {
 	background: rgba(0,0,0,0.5);
 }
-.techweek2015-grid #suh2015 .shadow {
+.previous-year-grid #suh2015 .shadow {
 	background: rgba(0,0,0,0.6);
 }
-.techweek2015-grid #venturecup2015 .shadow {
+.previous-year-grid #venturecup2015 .shadow {
 	background: rgba(0,0,0,0.6);
 }
-.techweek2015-grid #tedx2015 .shadow {
+.previous-year-grid #tedx2015 .shadow {
 	background: rgba(0,0,0,0.6);
 }
 
-.techweek2015-grid div img {
+.previous-year-grid div img {
 	z-index: -1;
 	vertical-align: top;
 	position: relative;
 	width: 100%;
 }
 
-.techweek2015-grid div span {
+.previous-year-grid div span {
 	background: rgba(0,0,0,0.6);
 	height: 100%;
 	width: 100%;
 	position: absolute;
 }
 
-.techweek2015-grid div .text {
+.previous-year-grid div .text {
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -698,17 +720,18 @@ form#update-signup input[type="submit"] {
 	position: absolute;
 }
 
-.techweek2015-grid div .text h1,
-.techweek2015-grid div .text h3 {
+.previous-year-grid div .text h1,
+.previous-year-grid div .text h3 {
 	margin: 0;
 }
 
-
-
+#contact {
+	color: rgb(29, 61, 77);
+}
 
 #contact a,
 footer a {
-	color: #008cba;
+	color: rgb(29, 61, 77);;
 }
 
 footer {

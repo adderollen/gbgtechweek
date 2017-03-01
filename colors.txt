@@ -1,0 +1,7 @@
+blå bakgrund (gammal): rgba(24, 149, 213, 0.8);
+vit bakgrund: rgba(255,255,255,0.92);
+blå (gammal): rgb(24,149,213);
+blå bakgrund: rgba(44, 78, 95, 0.92);
+blå text: rgb(29, 61, 77);
+vit: rgb(255,255,255);
+orange: #F15A22

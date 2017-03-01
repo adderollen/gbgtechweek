@@ -106,7 +106,7 @@ p, .button {
 
 .events-summary-row h1 {
   text-align: center;
-  color: black;
+  color: rgb(29, 61, 77);
 }
 
 .events-summary-row .events-summary-catagories-container {
@@ -118,7 +118,7 @@ p, .button {
 }
 
 .events-summary-row .events-summary-catagory {
-  color: black;
+  color: rgb(29, 61, 77);;
   display: inline-block;
   margin-right: 1em;
 }
@@ -135,7 +135,7 @@ p, .button {
   margin: 0 auto;
   margin-bottom: 22em;
   margin-top: -3em;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(29, 61, 77);
   position: relative;
   display: -webkit-box;
   display: -moz-box;
@@ -251,13 +251,13 @@ p, .button {
   margin-bottom: 0;
   margin-top: 4px;
   line-height: 1;
-  color: black;
+  color: rgb(29, 61, 77);
 /*  margin-left: 0.7em;*/
 }
 
 .event-timeline-object.below-timeline p {
   margin-bottom: 7px;
-  color: black;
+  color: rgb(29, 61, 77);
   line-height: 1;
 }
 
@@ -361,7 +361,7 @@ p, .button {
   position: absolute;
   height: 100%;
   width: 50%;
-  border-right: 2px solid black;
+  border-right: 2px solid rgb(29, 61, 77);
 }
 
 .small-event-timeline-container .event-timeline-object:nth-child(2) {
@@ -554,7 +554,7 @@ p, .button {
 }
 
 .contact-row .content a:hover {
-  border-bottom: 1px solid #008cba;
+  border-bottom: 2px solid rgba(44, 78, 95, 0.92);
 }
 
 .partners-row {
@@ -580,7 +580,7 @@ footer .content a {
 }
 
 footer .content a:hover {
-  border-bottom: 1px solid #008cba;
+  border-bottom: 1px solid rgba(44, 78, 95, 0.92);
 }
 
 footer .content a:first-child {
