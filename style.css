@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Proxima-thin", sans-serif;
 }
 
-p, .button {
+p, .button, a {
   font-family: 'Proxima-regular', sans-serif;
 }
 
@@ -550,7 +550,7 @@ p, .button {
 }
 
 .contact-row .content a {
-  border-bottom: 1px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 .contact-row .content a:hover {
@@ -581,14 +581,6 @@ footer .content a {
 
 footer .content a:hover {
   border-bottom: 1px solid rgba(44, 78, 95, 0.92);
-}
-
-footer .content a:first-child {
-  margin-right: 2em;
-}
-
-footer .content a:last-child {
-  margin-left: 2em;
 }
 
 
