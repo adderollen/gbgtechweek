@@ -34,7 +34,6 @@ h1, h2, h3 {
 
 p {
 	line-height: 24px;
-	display: inline-block;
 }
 
 a {
@@ -182,9 +181,26 @@ a.button.reversed:hover {
 	opacity: 1;
 }
 
-.logo-row img {
+.logo-row .logo {
 	width: 20%;
 	max-width: 400px;
+}
+
+.logo-row .nlg-container {
+	position: fixed;
+	bottom: 0;
+	max-width: 300px;
+	right: 2px;
+	color: white;
+}
+
+.nlg-container p {
+	margin: 0;
+	text-align: left;
+}
+
+.nlg-container .nlg-logo {
+	max-width: 99%;
 }
 
 .logo-row h1 {
@@ -193,7 +209,7 @@ a.button.reversed:hover {
 	text-shadow: 0 0px 15px black;
 }
 
-.logo-row p {
+.logo-row .photo-cred {
 	color: white;
 	margin-bottom: 0;
   position: fixed;
@@ -214,6 +230,12 @@ a.button.reversed:hover {
 
 
 /* Info row */
+.skyline-img {
+	width: 100%;
+	margin-bottom: -4.5px;
+	opacity: 0.92;
+}
+
 .main-info {
 	display: -webkit-box;
 	display: -moz-box;
@@ -250,7 +272,7 @@ a.button.reversed:hover {
 	text-align: center;
 	background: rgba(255,255,255,0.92);
 	color: rgb(29, 61, 77);
-	padding: 4em 25em 4em 25em;
+	padding: 1em 25em 4em 25em;
 	z-index: 2;
 	position: relative;
 }
@@ -346,11 +368,16 @@ form#update-signup input[type="submit"] {
 	background: rgba(44, 78, 95, 0.92);
 	position: relative;
 	color: white;
+	padding: 1em;
 }
 
 #this-year .content {
 	padding: 7em 0 0 0;
 	text-align: center;
+}
+
+#this-year p {
+	margin: 1em 10em;
 }
 
 .section-title {
@@ -362,7 +389,7 @@ form#update-signup input[type="submit"] {
 }
 
 .create-launch-scale-image {
-	width: 100%;
+	width: 80%;
 }
 
 
@@ -373,10 +400,12 @@ form#update-signup input[type="submit"] {
 	padding: 3em 0;
 }
 
-.schedule-header h1 {
+.schedule-header h1,
+.schedule-header h2 {
 	text-align: center;
 	color: white;
 }
+
 
 .schedule-content {
 	border-top: 2px solid white;
@@ -384,8 +413,14 @@ form#update-signup input[type="submit"] {
 }
 
 .schedule-block {
-  display: flex;
+  display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-align-items: center;
   align-items: center;
 }
 
@@ -409,11 +444,19 @@ form#update-signup input[type="submit"] {
 }
 
 .schedule-block-content {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
+	-webkit-flex-direction: row;
 	flex-direction: row;
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
+	-webkit-align-items: center;
 	align-items: center;
   width: 100%;
+  -webkit-justify-content: space-around; 
 	justify-content: space-around;
 	border-left: 2px solid white;
   padding: 1.5em 0;
@@ -474,18 +517,6 @@ form#update-signup input[type="submit"] {
 	justify-content: center;
 	background: rgba(255, 255, 255, 0.92);
 }
-
-.organizer-section h2 {
-	color: rgb(29, 61, 77);
-	opacity: 1;
-	transform: none;
-	padding-top: 1em;
-	margin-top: 0;
-}
-.organizer-section img {
-	width: 50%;
-}
-
 
 .person {
 	position: relative;
@@ -820,9 +851,45 @@ footer a {
 	color: rgb(29, 61, 77);
 }
 
+.nlg-info-container img {
+	width: 80%;
+}
+
+.nlg-info-container p {
+	margin: 1em 12em;
+
+}
+
+.organizer-section h2 {
+	color: rgb(29, 61, 77);
+	opacity: 1;
+	transform: none;
+	padding-top: 1em;
+	margin-top: 0;
+}
+
+.organizer-section p {
+	margin: 1em 12em;
+}
+
+.organizer-section img {
+	width: 50%;
+}
+
+.organizer-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.organizer-images img {
+	border-radius: 100%;
+	width: 250px
+}
+
 footer {
-	height: 8em;
-	margin-top: -8em;
+	height: 4em;
+	margin-top: -4em;
 	background-color: transparent;
 }
 
@@ -852,7 +919,7 @@ footer img {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-device-width: 700px) {
 
 	h1.big {
 		font-size: 2.5rem;
@@ -893,8 +960,30 @@ footer img {
 		background-position-x: 47%;
 	}
 
-	.logo-row img {
-		width: 70%;
+	.logo-row .logo {
+		width: 50%;
+	}
+
+	.logo-row .nlg-container {
+		max-width: initial;
+		width: 100%;
+		bottom: 25px;
+	}
+
+	.nlg-container p {
+		margin: 0 1em;
+	}
+
+	.nlg-container .nlg-logo {
+		max-width: 91%;
+	}
+
+	.signup-container {
+		bottom: 130px;
+	}
+
+	.signup-container h1 {
+		font-size: 3rem;
 	}
 
 	.info-row {
@@ -915,6 +1004,10 @@ footer img {
 
 	.main-info div {
 		padding: 0;
+	}
+
+	#this-year p {
+		margin: 1em 1em;
 	}
 
 	.schedule-day-container {
@@ -962,6 +1055,30 @@ footer img {
 
 	.event-image {
 		display: none;
+	}
+
+	.contact-row {
+		padding: 1em;
+		padding-top: 3em;
+	}
+
+	.nlg-info-container p {
+		margin: 1em;
+	}
+
+	.organizer-section h2 {
+		margin-bottom: 1em;
+	}
+
+	.organizer-section p {
+		margin: 1em;
+	}
+
+	.organizer-images img {
+		width: 120px;
+	}
+	.organizer-images h4 {
+		margin-top: 5px;
 	}
 
 }

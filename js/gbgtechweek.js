@@ -45,7 +45,6 @@ function postToGoogle(){
 
 $('#update-signup').submit(function(evt) {
   evt.preventDefault();
-  console.log("Enter function")
   postToGoogle();
     
 });
