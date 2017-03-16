@@ -506,6 +506,15 @@ form#update-signup input[type="submit"] {
 	opacity: 1;
 }
 
+.key-persons-container {
+	padding-top: 2em;
+	background: rgba(255, 255, 255, 0.92);
+}
+
+.key-persons-container h3 {
+	color: rgb(29, 61, 77);
+	text-align: center;
+}
 
 .key-persons {
 	display: -webkit-box;
@@ -515,7 +524,6 @@ form#update-signup input[type="submit"] {
 	display: flex;
 	-webkit-justify-content: center;
 	justify-content: center;
-	background: rgba(255, 255, 255, 0.92);
 }
 
 .person {
@@ -851,8 +859,15 @@ footer a {
 	color: rgb(29, 61, 77);
 }
 
-.nlg-info-container img {
+.nlg-info-container .powered {
 	width: 80%;
+	margin: 0.5em auto;
+	text-align: left;
+	color: rgb(29, 61, 77);
+}
+
+.nlg-info-container img {
+	width: 79.5%;
 }
 
 .nlg-info-container p {

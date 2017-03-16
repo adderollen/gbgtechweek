@@ -516,7 +516,7 @@ p, .button, a {
   background: rgba(255, 255, 255, 0.92);
 }
 
-.contact-row h2 {
+.contact-row h2.email {
   position: relative;
   -webkit-transform: translate(-50px,0);
   transform: translate(-50px,0);
