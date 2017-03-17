@@ -216,6 +216,7 @@ a.button.reversed:hover {
   left: 2px;
   bottom: 0;
   margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 
@@ -931,10 +932,24 @@ footer img {
 		max-width: 100%;
 	}
 
+	.logo-row .nlg-container {
+		max-width: initial;
+		width: 100%;
+		bottom: 25px;
+	}
+
+	.nlg-container p {
+		margin: 0 1em;
+	}
+
+	.nlg-container .nlg-logo {
+		max-width: 91%;
+	}
+
 }
 
 
-@media screen and (max-device-width: 700px) {
+@media screen and (max-device-width: 1200px) {
 
 	h1.big {
 		font-size: 2.5rem;
@@ -979,26 +994,16 @@ footer img {
 		width: 50%;
 	}
 
-	.logo-row .nlg-container {
-		max-width: initial;
-		width: 100%;
-		bottom: 25px;
-	}
-
-	.nlg-container p {
-		margin: 0 1em;
-	}
-
-	.nlg-container .nlg-logo {
-		max-width: 91%;
-	}
-
 	.signup-container {
 		bottom: 130px;
 	}
 
 	.signup-container h1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
+	}
+
+	.signup-container h3 {
+		font-size: 1.5rem;
 	}
 
 	.info-row {
@@ -1033,7 +1038,7 @@ footer img {
 		font-size: 2rem;
 	}
 
-	.key-persons {
+	.key-persons-container {
 		display: none;
 	}
 
@@ -1075,6 +1080,10 @@ footer img {
 	.contact-row {
 		padding: 1em;
 		padding-top: 3em;
+	}
+
+	.nlg-info-container .powered {
+		font-size: 1rem;
 	}
 
 	.nlg-info-container p {
