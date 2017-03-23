@@ -1,0 +1,156 @@
+
+.menu {
+	opacity: 1;
+	color: white;
+}
+
+.background img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.press-list-container {
+  text-align: center;
+  padding: 6em 0;
+  color: white;
+}
+
+.press-list-container ul {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.press-list-container h3 {
+	font-weight: initial;
+}
+
+.material {
+	font-weight: initial;
+	color: white;
+	border-bottom: 2px solid white;
+}
+
+.material:hover {
+	font-weight: bold;
+}
+
+.press-item-list {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+}
+
+.press-item {
+	max-width: 23%;
+	padding: 2em 3em;
+	box-shadow: 0px 0px 7px -1px white;
+	-webkit-transition: box-shadow 0.1s, -webkit-transform 0.3s;
+	-moz-transition: box-shadow 0.1s, -webkit-transform 0.3s;
+	-ms-transition: box-shadow 0.1s, -webkit-transform 0.3s;
+	-o-transition: box-shadow 0.1s, -webkit-transform 0.3s;
+	transition: box-shadow 0.1s, transform 0.3s;
+	margin: 0.5em;
+	background: white;
+	color: rgb(29, 61, 77);
+}
+
+.press-item:hover {
+	box-shadow: 0px 0px 14px -1px white;
+	-webkit-transform: scale(1.005);
+	-ms-transform: scale(1.005);
+	transform: scale(1.005);
+	
+}
+
+.press-item-date {
+	text-align: center;
+	margin: 0.2em 0;
+}
+
+.press-item-img {
+	width: 100%;
+}
+
+.press-item-title {
+	margin: 0.2em 0;
+	font-size: 1.5rem;
+}
+
+.press-item-intro {
+	margin: 0.5em;
+}
+
+
+.press-release-container {
+	padding: 7em 0em;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(29, 61, 77);
+}
+
+.press-release-img {
+	width: 100%;
+}
+
+.press-release-title {
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.press-release-intro {
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+.press-release-info {
+	text-align: left;
+}
+
+.press-release-info a {
+	border-bottom: 1px solid rgba(29, 61, 77, 0.3);
+	color: rgb(29, 61, 77);
+}
+
+.press-release-info a:hover {
+	border-bottom: 1px solid rgba(29, 61, 77, 1);
+}
+
+.contact-container .contact-title {
+	margin-bottom: 0;
+	margin-top: 2em;
+}
+
+.contact-info {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 60%;
+}
+
+.contact-info p {
+	margin-right: 1em;
+}
+
+@media screen and (max-device-width: 1200px) {
+
+	.press-release-container {
+		width: 80%;
+	}
+
+}
