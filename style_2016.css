@@ -234,7 +234,7 @@ a.button.reversed:hover {
 .skyline-img {
 	width: 100%;
 	margin-bottom: -4.5px;
-	opacity: 0.92;
+	opacity: 1;
 }
 
 .main-info {
@@ -271,7 +271,7 @@ a.button.reversed:hover {
 
 .info-row {
 	text-align: center;
-	background: rgba(255,255,255,0.92);
+	background: rgb(255,255,255);
 	color: rgb(29, 61, 77);
 	padding: 1em 25em 4em 25em;
 	z-index: 2;
@@ -487,26 +487,6 @@ form#update-signup input[type="submit"] {
 	margin: 0;
 }
 
-
-
-
-.event-timeline-object a .caption {
-  position: absolute;
-  width: 100%;
-  left: -0.5em;
-  top: 0;
-  margin: 0;
-  background: rgba(44, 78, 95, 0.92);
-  padding: 0.5em;
-  border-radius: 10px;
-  opacity: 0;
-  color: white;
-}
-
-.event-timeline-object a:hover .caption {
-	opacity: 1;
-}
-
 .key-persons-container {
 	padding-top: 2em;
 	background: rgba(255, 255, 255, 0.92);
@@ -528,6 +508,7 @@ form#update-signup input[type="submit"] {
 }
 
 .person {
+	max-width: 250px;
 	position: relative;
 	text-align: center;
 	display: inherit;
@@ -605,8 +586,8 @@ form#update-signup input[type="submit"] {
 	flex: 1;
 	text-align: center;
 	cursor: pointer;
-	background: rgba(100, 100, 100, 0.8);
-	color: white;
+	background: rgba(255,255,255,0.92);
+	color: rgb(29, 61, 77);;
 	-webkit-transition: background .2s, color .2s;
 	-moz-transition: background .2s, color .2s;
 	-ms-transition: background .2s, color .2s;
@@ -615,24 +596,19 @@ form#update-signup input[type="submit"] {
 }
 
 .events-menu li:hover {
-	background: rgba(255, 255, 255, 0.92);
+	background: rgba(44, 78, 95, 0.92);
+	color: white;
+}
+
+.events-menu li.active-day {
+	background: rgba(44, 78, 95, 0.92);
+	color: white;
 }
 
 .events-menu p {
 	cursor: pointer;
 	font-size: 2rem;
 }
-
-.events-menu li:hover p {
-	color: rgba(24, 149, 213, 0.8);
-}
-
-
-.active-day {
-	background: rgba(255, 255, 255, 0.92) !important;
-	color: rgba(24, 149, 213, 0.8) !important;
-}
-
 
 .event-list {
 	
@@ -649,17 +625,18 @@ form#update-signup input[type="submit"] {
 	-moz-flex-direction: row-reverse;
 	-ms-flex-direction: row-reverse;
 	flex-direction: row-reverse;
-	background: rgba(24, 149, 213, 0.8);
+	background: rgba(44, 78, 95, 0.92);
 	color: white;
 }
 
 .event-list li:nth-child(odd) .event-container {
 	background: rgba(255, 255, 255, 0.92);
+	color: rgb(29, 61, 77);
 }
 
 .event-list li:nth-child(even) .button {
 	background-color: white;
-	color: #1895D5;
+	color: rgb(29, 61, 77);
 }
 
 .event-list li:nth-child(even) .button:hover {
