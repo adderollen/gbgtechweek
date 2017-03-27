@@ -65,8 +65,26 @@ $('.schedule-event-link').not('.external-link').click(function(evt) {
 var daySwitchClick = function(href) {
   if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
     switch(href) {
-      case "#placeholder":
-        switchDay("day1")
+      case "#unionen":
+        switchDay("day3")
+        break;
+      case "#fvpd":
+        switchDay("day3")
+        break;
+      case "#postitapp":
+        switchDay("day3")
+        break;
+      case "#cse":
+        switchDay("day3")
+        break;
+      case "#fvpd2":
+        switchDay("day4")
+        break;
+      case "#orten":
+        switchDay("day4")
+        break;
+      case "#startuphack":
+        switchDay("day6")
         break;
     }
   }

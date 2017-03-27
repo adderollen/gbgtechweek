@@ -709,6 +709,15 @@ form#update-signup input[type="submit"] {
 	display: inline-block;
 }
 
+.event-info .event-venue a {
+	color: inherit;
+  border-bottom: 1px solid;
+}
+
+.event-info .event-venue a:hover {
+	font-weight: bold;
+}
+
 .event-info .info {
 	text-align: left;
 	line-height: 28px;
