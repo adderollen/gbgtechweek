@@ -65,6 +65,12 @@ $('.schedule-event-link').not('.external-link').click(function(evt) {
 var daySwitchClick = function(href) {
   if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
     switch(href) {
+      case "#venturecup":
+        switchDay("day2")
+        break;
+      case "#craftacademy":
+        switchDay("day2")
+        break;
       case "#unionen":
         switchDay("day3")
         break;
@@ -74,10 +80,19 @@ var daySwitchClick = function(href) {
       case "#postitapp":
         switchDay("day3")
         break;
+      case "#almi":
+        switchDay("day3")
+        break;
       case "#cse":
         switchDay("day3")
         break;
+      case "#lindholmen":
+        switchDay("day3")
+        break;
       case "#fvpd2":
+        switchDay("day4")
+        break;
+      case "#chalmersventures":
         switchDay("day4")
         break;
       case "#orten":

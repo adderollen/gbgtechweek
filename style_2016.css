@@ -41,6 +41,7 @@ a {
 	text-decoration: none;
 }
 
+
 a.button {
 	background-color: white;
 	color: rgb(29, 61, 77);
@@ -74,10 +75,13 @@ a.button.reversed:hover {
 	border-color: rgba(44, 78, 95, 0.92);
 }
 
-.not-active {
+
+.not-active,
+a.not-active {
 	pointer-events: none;
-	cursor: default;
+	cursor: not-allowed !important; 
 }
+
 
 /* Menu */
 
@@ -454,8 +458,8 @@ form#update-signup input[type="submit"] {
 	flex-direction: row;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-webkit-align-items: center;
-	align-items: center;
+	-webkit-align-items: baseline;
+	align-items: baseline;
   width: 100%;
   -webkit-justify-content: space-around; 
 	justify-content: space-around;
