@@ -98,11 +98,17 @@ var daySwitchClick = function(href) {
       case "#orten":
         switchDay("day4")
         break;
+      case "#guventures":
+        switchDay("day4")
+        break;
       case "#sahlgrenska":
         switchDay("day4")
         break;
       case "#drivhuset":
         switchDay("day5")
+        break;
+      case "#chinapreneurs":
+        switchDay("day5");
         break;
       case "#janssonnorin":
         switchDay("day5")
