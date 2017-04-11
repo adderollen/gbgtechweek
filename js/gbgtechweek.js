@@ -89,6 +89,9 @@ var daySwitchClick = function(href) {
       case "#lindholmen":
         switchDay("day3")
         break;
+      case "#osfs":
+        switchDay("day3")
+        break;
       case "#fvpd2":
         switchDay("day4")
         break;
