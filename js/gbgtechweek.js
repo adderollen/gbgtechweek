@@ -89,6 +89,9 @@ var daySwitchClick = function(href) {
       case "#lindholmen":
         switchDay("day3")
         break;
+      case "#osfs":
+        switchDay("day3")
+        break;
       case "#fvpd2":
         switchDay("day4")
         break;
@@ -98,11 +101,17 @@ var daySwitchClick = function(href) {
       case "#orten":
         switchDay("day4")
         break;
+      case "#guventures":
+        switchDay("day4")
+        break;
       case "#sahlgrenska":
         switchDay("day4")
         break;
       case "#drivhuset":
         switchDay("day5")
+        break;
+      case "#chinapreneurs":
+        switchDay("day5");
         break;
       case "#janssonnorin":
         switchDay("day5")
