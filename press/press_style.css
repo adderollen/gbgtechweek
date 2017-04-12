@@ -108,6 +108,12 @@
 	width: 100%;
 }
 
+.press-release-img-text {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+}
+
 .press-release-title {
 	margin-bottom: 0;
 	text-align: left;
