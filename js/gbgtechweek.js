@@ -92,13 +92,22 @@ var daySwitchClick = function(href) {
       case "#osfs":
         switchDay("day3")
         break;
+      case "#startupbar":
+        switchDay("day3")
+        break;
       case "#fvpd2":
         switchDay("day4")
         break;
       case "#chalmersventures":
         switchDay("day4")
         break;
+      case "#insight":
+        switchDay("day4")
+        break;
       case "#orten":
+        switchDay("day4")
+        break;
+      case "#siliconvallgatan":
         switchDay("day4")
         break;
       case "#guventures":
