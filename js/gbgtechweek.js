@@ -119,6 +119,9 @@ var daySwitchClick = function(href) {
       case "#drivhuset":
         switchDay("day5")
         break;
+      case "#findwise":
+        switchDay("day5")
+        break;
       case "#chinapreneurs":
         switchDay("day5");
         break;
