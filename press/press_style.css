@@ -160,8 +160,18 @@
 
 @media screen and (max-device-width: 1200px) {
 
+	.background img {
+		height: 100vh;
+		width: initial;
+	}
+
 	.press-release-container {
 		width: 80%;
+	}
+
+	.press-item {
+		max-width: 70%;
+		padding: 1em 2em;
 	}
 
 }

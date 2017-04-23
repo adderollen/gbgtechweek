@@ -68,6 +68,9 @@ var daySwitchClick = function(href) {
       case "#venturecup":
         switchDay("day2")
         break;
+      case "#glimstedt":
+        switchDay("day2")
+        break;
       case "#craftacademy":
         switchDay("day2")
         break;
@@ -120,6 +123,9 @@ var daySwitchClick = function(href) {
         switchDay("day5")
         break;
       case "#findwise":
+        switchDay("day5")
+        break;
+      case "#tillvaxtverket":
         switchDay("day5")
         break;
       case "#chinapreneurs":

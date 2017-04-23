@@ -518,14 +518,21 @@ form#update-signup input[type="submit"] {
   text-align: center;
   color: rgb(29, 61, 77);
   margin: 0.5em;
+  max-width: 250px;
 }
 
 .key-person h4 {
 	margin: 0.5em;
+	margin-bottom: 0;
 }
 
 .key-person p {
 	margin: 0.5em;
+	margin-top: 0;
+}
+
+.key-person img {
+	width: 250px;
 }
 
 
@@ -990,7 +997,7 @@ footer img {
 		font-size: 2rem;
 	}
 
-	.key-persons-container {
+	#key-persons {
 		display: none;
 	}
 
