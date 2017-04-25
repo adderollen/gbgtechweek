@@ -131,10 +131,16 @@ var daySwitchClick = function(href) {
       case "#chinapreneurs":
         switchDay("day5");
         break;
+      case "#techineast":
+        switchDay("day5");
+        break;
       case "#janssonnorin":
         switchDay("day5")
         break;
       case "#startuphack":
+        switchDay("day6")
+        break;
+      case "#beeryoga":
         switchDay("day6")
         break;
     }
