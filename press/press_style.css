@@ -1,3 +1,14 @@
+ul  {
+	list-style: none;
+	padding-left: 0;
+	text-align: left;
+}
+
+li {
+  font-family: 'Proxima-regular', sans-serif;
+  line-height: 1.5;
+
+}
 
 .menu {
 	opacity: 1;
