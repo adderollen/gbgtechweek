@@ -205,7 +205,7 @@ offset: '20%'
 })
 
 
-var eventDay = "day2";
+var eventDay = "day3";
 
 $(document).ready(function() {
   if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
