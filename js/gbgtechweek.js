@@ -119,6 +119,9 @@ var daySwitchClick = function(href) {
       case "#sahlgrenska":
         switchDay("day4")
         break;
+      case "#joinastartup":
+        switchDay("day5")
+        break;
       case "#drivhuset":
         switchDay("day5")
         break;

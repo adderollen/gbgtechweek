@@ -997,7 +997,7 @@ footer img {
 		font-size: 2rem;
 	}
 
-	#key-persons {
+	#key-persons, .non-mobile {
 		display: none;
 	}
 
