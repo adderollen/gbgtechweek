@@ -207,7 +207,7 @@ a.not-active {
 	max-width: 99%;
 }
 
-.logo-row h1 {
+.logo-row h1, .logo-row h2 {
 	color: white;
 	margin-top: 1em;
 	text-shadow: 0 0px 15px black;
@@ -291,6 +291,7 @@ a.not-active {
 }
 
 .signup-container h3,
+.signup-container h2,
 .signup-container h1 {
 	color: white;
 	margin-top: 1em;
@@ -377,7 +378,7 @@ form#update-signup input[type="submit"] {
 }
 
 #this-year .content {
-	padding: 7em 0 0 0;
+	padding: 7em 10em 2em 10em;
 	text-align: center;
 }
 
@@ -396,6 +397,74 @@ form#update-signup input[type="submit"] {
 .create-launch-scale-image {
 	width: 80%;
 }
+
+/* Photos */
+
+.photos-event-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-between; 
+	justify-content: space-between;
+	margin: 1em 0;
+}
+
+.photos-photo-container,
+.photos-event-info {
+	flex: 1;
+}
+
+.photos-photo-container {
+	padding: 0.5em;
+}
+
+.photos-event-info {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center; 
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.photos-event-text {
+	padding: 0 1em;	
+}
+
+.photos-event-text h4 {
+  margin-top: 0.5em;
+	text-align: center;
+}
+
+#this-year .photos-event-text p {
+	margin: 0;
+  text-align: center;
+}
+
+.photos-event-logo {
+	text-align: center;
+}
+
+.photos-event-logo img {
+	max-width: 60%;
+}
+
+.photos-photo {
+	max-width: 100%;
+}
+
 
 
 /* Schedule */
@@ -961,6 +1030,10 @@ footer img {
 		font-size: 2.5rem;
 	}
 
+	.signup-container h2 {
+		font-size: 1.8rem;
+	}
+
 	.signup-container h3 {
 		font-size: 1.5rem;
 	}
@@ -985,8 +1058,19 @@ footer img {
 		padding: 0;
 	}
 
+	#this-year .content {
+		padding: 7em 0 2em 0;
+	}
+
 	#this-year p {
 		margin: 1em 1em;
+	}
+
+	.photos-event-container {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
 	}
 
 	.schedule-day-container {
