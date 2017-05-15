@@ -443,6 +443,17 @@ form#update-signup input[type="submit"] {
 	padding: 0 1em;	
 }
 
+.photos-event-text .cred a {
+	color: white;
+	font-weight: bold;
+	border-bottom: 1px solid transparent;
+}
+
+.photos-event-text .cred a:hover {
+	border-bottom: 1px solid white;
+}
+
+
 .photos-event-text h4 {
   margin-top: 0.5em;
 	text-align: center;
