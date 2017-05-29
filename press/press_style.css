@@ -117,12 +117,14 @@ li {
 
 .press-release-img {
 	width: 100%;
+	margin-top: 1em;
 }
 
 .press-release-img-text {
   margin: 0;
   font-size: 12px;
   font-style: italic;
+  line-height: 18px;
 }
 
 .press-release-title {
