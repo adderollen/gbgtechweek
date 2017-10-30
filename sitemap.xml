@@ -8,7 +8,7 @@
 
 	<url>
 	  <loc>https://www.gbgtechweek.com/</loc>
-	  <lastmod>2017-03-16</lastmod>
+	  <lastmod>2017-10-29</lastmod>
 	  <changefreq>monthly</changefreq>
 	  <priority>0.8</priority>
 	</url>
@@ -17,12 +17,72 @@
 	  <loc>https://www.gbgtechweek.com/press</loc>
 	  <lastmod>2017-03-23</lastmod>
 	  <changefreq>weekly</changefreq>
-	  <priority>0.3</priority>
+	  <priority>0.5</priority>
 	</url>
 
 	<url>
 	  <loc>https://www.gbgtechweek.com/press/gbgtechweek-is-back</loc>
 	  <lastmod>2017-03-23</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>	
+	
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/first-events-of-gbgtechweek/</loc>
+	  <lastmod>2017-03-28</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>	
+	
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/lena-apler-and-jarno-vanhatapio-to-gbgtechweek/</loc>
+	  <lastmod>2017-03-31</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>	
+	
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/naringslivsgruppen-supports-gbgtechweek</loc>
+	  <lastmod>2017-04-06</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>	
+	
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/scale-up-events</loc>
+	  <lastmod>2017-04-12</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>	
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/marie-wall-and-cellink-to-gbgtechweek</loc>
+	  <lastmod>2017-04-13</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/silicon-vallgatan-and-linnea-lindau-to-gbgtechweek</loc>
+	  <lastmod>2017-04-18</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/get-started-find-the-investors-and-visualize-your-big-data</loc>
+	  <lastmod>2017-04-24</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/90-hours-of-tech-and-startup-events-during-gbgtechweek</loc>
+	  <lastmod>2017-05-02</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/this-is-the-tech-and-startup-elite-which-will-attend-gbgtechweek</loc>
+	  <lastmod>2017-05-03</lastmod>
+	  <changefreq>monthly</changefreq>
+	</url>	
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/press/thanks-for-this-year</loc>
+	  <lastmod>2017-05-29</lastmod>
 	  <changefreq>monthly</changefreq>
 	</url>	
 
