@@ -20,7 +20,7 @@ $(document).ready(function() {
 function postToGoogle(){
         let email = $('input[type="email"]').val();
         $.ajax({
-            url: "http://docs.google.com/forms/d/1Bxfysoffg0kegvsdtqY_3KE6mhOV5LFO0l_xuiWOAvk/formResponse",
+            url: "https://docs.google.com/forms/d/1Bxfysoffg0kegvsdtqY_3KE6mhOV5LFO0l_xuiWOAvk/formResponse",
             data: {"entry.435942832" : email},
             type: "POST",
             dataType: "xml",
@@ -167,42 +167,6 @@ var switchDay = function(day) {
     $('.event-list .'+eventDay).toggleClass('hide');
     $('.events-menu li[name='+eventDay+']').toggleClass('active-day');
 }
-
-
-var waypointLogo = $('#logo').waypoint({
-  handler: function(direction) {
-    history.pushState(null,null,'')
-}
-})
-
-var waypointInfo = $('#info').waypoint({
-  handler: function(direction) {
-    $('.info-row .left-side').toggleClass('left-side-animate');
-    $('.info-row .right-side').toggleClass('right-side-animate');
-},
-offset: '50%'
-})
-
-var waypointInfoURL = $('#info').waypoint({
-  handler: function(direction) {
-    history.pushState(null,null,'#info')
-},
-offset: '20%'
-})
-
-var waypointEventsURL = $('#events').waypoint({
-  handler: function(direction) {
-    history.pushState(null,null,'#events')
-},
-offset: '20%'
-})
-
-var waypointContactURL = $('#contact').waypoint({
-  handler: function(direction) {
-    history.pushState(null,null,'#contact')
-},
-offset: '20%'
-})
 
 
 var eventDay = "day3";
