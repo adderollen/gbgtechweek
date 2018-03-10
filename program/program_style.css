@@ -55,6 +55,10 @@ h3 {
     font-weight: bold;
 }
 
+.sidebar h1 {
+	font-size: 2rem;
+}
+
 .separator {
 	padding: 1.5em 0;
 }
@@ -71,6 +75,70 @@ h3 {
     font-weight: 600;
     font-size: 1.5em;
     margin-left: 20px;
+}
+
+.day-selector-container {
+	position: relative;
+	margin: 2em 0;
+}
+
+.day-selector-container:before {
+	content: " ";
+    display: block;
+    position: absolute;
+    width: 1px;
+    background-color: #fff;
+    height: 98%;
+    top: 1%;
+    left: 10px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.day-selector:first-child .day-link {
+	margin-top: 0;
+}
+
+.day-selector:last-child .day-link {
+	margin-bottom: 0;
+}
+
+.day-link {
+	display: inline-block;
+    margin: 1em 0;
+    position: relative;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.day-link:before {
+	content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    will-change: transform;
+    border: 1px solid #fff;
+    background-color: #657e8c;
+    -webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	-ms-transition: background-color .2s;
+	-o-transition: background-color .2s;
+	transition: background-color .2s;
+}
+
+.day-link:hover:before {
+	background-color: #fbfdff;
+}
+
+.day-link.active:before {
+	background-color: #fbfdff;
 }
 
 .event {
@@ -172,4 +240,69 @@ h3 {
     height: 100%;
     padding-right: 0;
     vertical-align: none;
+}
+
+.event-link span.category-color.tech {
+	background-color: green;
+}
+
+.event-thumbnail-container {
+	padding-right: 0;
+}
+
+.event-thumbnail {
+	width: 5em;
+    height: 5em;
+    background-size: 100%;
+    border-radius: 100%;
+	background-image: url('https://placehold.it/250x250');
+}
+
+.event-text h4 {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.event-text p {
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.event-location {
+	padding: 0;
+}
+
+span.location-icon {
+	padding-right: 0;
+	margin: 0;
+	background-image: url('https://placehold.it/250x250');
+	background-size: 100%;
+	width: 1.5em;
+	height: 1.5em;
+}
+
+.location-link {
+	padding-right: 0;
+	padding-left: 1em;
+}
+
+.event-cta {
+	padding: 0;
+}
+
+.event-cta span {
+	padding: 0.5em 1em;
+	background-color: #fbfdff;
+    color: #585858;
+    -webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	-ms-transition: background-color .2s;
+	-o-transition: background-color .2s;
+	transition: background-color .2s;
+}
+
+.event-cta span:hover {
+	background-color: #bfdfff;
 }
