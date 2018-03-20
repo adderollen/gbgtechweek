@@ -315,8 +315,28 @@ span.location-icon {
 	background-color: #bfdfff;
 }
 
+@media screen and (max-device-width: 1600px) {
+	
+	.page {
+		padding: 10vh 2em;
+		
+	}
+	.sidebar {
+		left: calc(50% - 652px);
+	}
+
+	.content {
+		margin-left: 370px;
+	}
+
+}
+
 
 @media screen and (max-device-width: 1200px) {
+
+	.page {
+		padding: 10vh 0;
+	}
 	.sidebar {
 		position: relative;
 	    left: initial;

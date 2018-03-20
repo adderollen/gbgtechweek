@@ -1,0 +1,220 @@
+.background {
+	background: linear-gradient(315deg, #1D8BCD, #f4f4f5);
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	background-size: 400% 400%;
+
+	-webkit-animation: AnimationName 14s ease infinite;
+	-moz-animation: AnimationName 14s ease infinite;
+	animation: AnimationName 14s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:4% 0%}
+	    50%{background-position:97% 100%}
+	    100%{background-position:4% 0%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:4% 0%}
+	    50%{background-position:97% 100%}
+	    100%{background-position:4% 0%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:4% 0%}
+	    50%{background-position:97% 100%}
+	    100%{background-position:4% 0%}
+	}
+
+}
+.page {
+	padding-top: 10vh;
+	min-height: calc(100vh - 500px);
+	max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #585858;
+    padding-bottom: 4em;
+}
+
+.breadcrumb-link-back{
+	font-size: 1.7em;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #585858;
+}
+
+.breadcrumb-link-back:before {
+	content: "←";
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    margin-right: 1em;
+}
+
+.breadcrumb-this-page {
+	font-size: 1.3em;
+	font-family: 'Proxima-regular', sans-serif;
+}
+
+.breadcrumb-this-page:before {
+	content: "/";
+    display: inline-block;
+    margin: 0 1.3em;
+}
+
+.event-header {
+	justify-content: space-between;
+}
+
+.event-header img {
+	max-width: 50%;
+}
+
+.event-header h2 {
+	max-width: initial;
+    padding-right: initial;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0.2em;
+}
+
+.event-location {
+	font-size: 1.5em;
+    margin-top: 0;
+}
+
+.event-location a {
+	color: #585858;
+}
+
+.event-location a span {
+	text-decoration: underline;
+}
+
+.join-button {
+	font-family: 'Proxima-regular', sans-serif;
+	font-size: 1.3em;
+	margin-top: 2em;
+	padding: 0.6em 1.5em;
+	background-color: #fbfdff;
+    color: #585858;
+    -webkit-transition: background-color .2s;
+	-moz-transition: background-color .2s;
+	-ms-transition: background-color .2s;
+	-o-transition: background-color .2s;
+	transition: background-color .2s;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.join-button:hover {
+	background-color: #bfdfff;
+}
+
+.event-organizers {
+	max-height: 150px;
+}
+
+.event-organizers img {
+	max-height: -webkit-fill-available;
+	margin-right: 1em;
+	border-radius: 100%;
+}
+
+.event-description {
+	max-width: 70%;
+	margin: 2em 0;
+}
+
+.event-description p {
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+@media screen and (max-device-width: 1600px) {
+	.page {
+		padding: 15vh 2em;
+	}
+
+	.content {
+		margin: 0 6em;
+	}
+
+}
+
+
+@media screen and (max-device-width: 1200px) {
+
+	.page {
+		padding: 10vh 0;
+	}
+	
+	.content {
+		text-align: center;
+		margin: 0;
+	}
+
+	.breadcrumbs {
+		padding: 0 1em;
+	}
+
+	.breadcrumb-link-back {
+		font-size: 1.2em;
+	}
+
+	.breadcrumb-this-page:before {
+		margin: 0 0.3em;
+	}
+
+	.breadcrumb-this-page {
+		font-size: 0.9em;
+	}
+
+	.header-info {
+		padding: 0.5em 1em;
+		text-align: center;
+	}
+
+	.event-title {
+		margin-top: 1em;
+	}
+
+	.event-header h2 {
+		padding: 0;
+    font-size: 1.3em;
+    text-align: inherit;
+	}
+
+	.event-location {
+		font-size: 1.2em;
+	}
+
+	.event-header img {
+		position: absolute;
+    z-index: -1;
+    width: 100%;
+    max-width: initial;
+    opacity: 0.5;
+	}
+
+	.event-organizers {
+		margin-top: 1.5em;
+		max-height: 100px;
+		padding: 0 1em;
+		text-align: center;
+	}
+
+	.event-organizers img {
+		margin: 0 0.5em;
+	}
+
+	.event-description {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	.event-description p {
+		font-size: 1em;
+		text-align: left;
+	}
+}
