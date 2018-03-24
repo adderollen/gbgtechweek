@@ -6,7 +6,7 @@ $('.menu a').click(function() {
     }, 1000, function () {
         window.location.hash = href;
     });
-    return false;
+    return true;
 });
 
 $(document).ready(function() {
