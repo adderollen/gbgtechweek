@@ -27,7 +27,7 @@
 
 }
 .page {
-	padding-top: 10vh;
+	padding-top: 110px;
 	min-height: calc(100vh - 500px);
 	max-width: 1440px;
     margin-left: auto;
@@ -41,6 +41,11 @@
 	text-transform: uppercase;
 	cursor: pointer;
 	color: #585858;
+	border-bottom: 2px solid transparent;
+}
+
+.breadcrumb-link-back:hover {
+	border-bottom: 2px solid #585858;
 }
 
 .breadcrumb-link-back:before {
@@ -129,6 +134,47 @@
 .event-description p {
 	font-size: 1.3em;
 	line-height: 1.4em;
+}
+
+.speaker {
+	font-size: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  position: relative;
+  height: 280px;
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: lighten;
+  -webkit-filter: contrast(1.2);
+  filter: contrast(1.2);
+}
+
+.speaker-content {
+	background-color: rgba(0,0,0,.4);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 1em .5em;
+  box-sizing: border-box;
+  color: white;
+}
+
+.speaker-name {
+	font-weight: 600;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.speaker-organisation {
+	font-size: .9em;
+  margin: .5em 0 0;
+}
+
+#random-name {
+	background-image: url('https://placehold.it/500x500')
 }
 
 @media screen and (max-device-width: 1600px) {

@@ -280,9 +280,11 @@ h3 {
 
 .event-location {
 	padding: 0;
+	min-width: 100px;
 }
 
 span.location-icon {
+	display: inline-block;
 	padding-right: 0;
 	margin: 0;
 	background-image: url('https://placehold.it/250x250');
@@ -291,9 +293,10 @@ span.location-icon {
 	height: 1.5em;
 }
 
-.location-link {
+span.location-link {
+	display: inline-block;
 	padding-right: 0;
-	padding-left: 1em;
+	padding-left: 0.5em;
 }
 
 .event-cta {
