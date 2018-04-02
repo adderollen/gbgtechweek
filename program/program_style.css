@@ -264,64 +264,83 @@ h3 {
 .event-thumbnail {
 	width: 5em;
   height: 5em;
-  background-size: 100%;
   border-radius: 100%;
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/logo/gtw_logo_blue_gray.png');
+	background-repeat: no-repeat;
+  background-size: 150%;
 }
 
 #gothenburg-startup-hack .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2017/photos/startuphack_3.jpg');
+	background-position-x:-25px;
 }
 #strategic-competence .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2017/photos/');
+	display: none;
 }
 #corporates-meets-ict-startups .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2017/photos/cleantech_1.jpg');
+	background-position-x: -32px;
 }
 #life-science-value-creation .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2017/photos/sahlgrenska_3.jpg');
+	background-position-x: -40px;
 }
 #edtech .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2018/events/edtech/edtech.jpg');
 }
 #game-developers-lounge .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 #glimstedt-breakfast .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2017/photos/glimstedt_1.jpg');
+	background-position-x: -10px;
 }
 #ida-pitch-event .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 #compinn .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 #venture-pitch .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 #cleantech-day .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-position-x: -20px;
+	background-image: url('../img/2017/photos/cleantech_3.jpg');
 }
 #iot-bootcamp-1 .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2018/events/iot_bootcamp/iot_bootcamp.jpg');
+	background-size: 200%;
+	background-position-x: -20px;
 }
 #iot-bootcamp-2 .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2018/events/iot_bootcamp/iot_bootcamp.jpg');
+	background-size: 200%;
+	background-position-x: -20px;
 }
 #jansson-norin-breakit .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('../img/2017/photos/janssonnorin_breakit_3.jpg');
 }
 #creative-morning .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 #aw-with-glimstedt .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 #code-in-the-dark .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 #gbgtechweek-dinner .event-thumbnail {
-	background-image: url('https://placehold.it/250x250');
+	display: none;
+	background-image: url('../img/2017/photos/');
 }
 
 .event-text h4 {

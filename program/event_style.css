@@ -263,4 +263,8 @@
 		font-size: 1em;
 		text-align: left;
 	}
+
+	.speaker {
+		width: 280px;
+	}
 }

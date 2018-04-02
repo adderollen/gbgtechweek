@@ -190,7 +190,7 @@ a.not-active {
 	max-width: 400px;
 }
 
-.logo-row .nlg-container {
+.logo-row .top-partners-container {
 	position: fixed;
 	bottom: 0;
 	max-width: 300px;
@@ -198,12 +198,12 @@ a.not-active {
 	color: white;
 }
 
-.nlg-container p {
+.top-partners-container p {
 	margin: 0;
 	text-align: left;
 }
 
-.nlg-container .nlg-logo {
+.top-partners-container .partner-logo {
 	max-width: 99%;
 }
 
@@ -816,7 +816,7 @@ form#update-signup input[type="submit"] {
 	font-size: 5rem;
 	z-index: 2;
 	text-align: center;
-	top: 44%;
+	top: 46%;
 	-webkit-transform: translateY(-44%);
 	-ms-transform: translateY(-44%);
 	transform: translateY(-44%);
@@ -899,19 +899,25 @@ footer a {
 	color: rgb(29, 61, 77);
 }
 
-.nlg-info-container .powered {
+.partners h2 {
 	width: 80%;
 	margin: 0.5em auto;
 	text-align: left;
 	color: rgb(29, 61, 77);
 }
 
-.nlg-info-container img {
+.partner {
+	display: inline-block;
+  max-width: 45%;
+  vertical-align: middle;
+}
+
+.partner img {
 	width: 79.5%;
 }
 
-.nlg-info-container p {
-	margin: 1em 12em;
+.partner p {
+	margin: 1em 1em;
 
 }
 
@@ -940,6 +946,10 @@ footer a {
 .organizer-images img {
 	border-radius: 100%;
 	width: 250px
+}
+
+.organizer-images img#malin {
+	filter: saturate(0.8);
 }
 
 footer {
@@ -971,18 +981,25 @@ footer img {
 		max-width: 100%;
 	}
 
-	.logo-row .nlg-container {
+	.logo-row .top-partners-container {
 		max-width: initial;
 		width: 100%;
 		bottom: 25px;
 	}
 
-	.nlg-container p {
+	.top-partners-container p {
 		margin: 0 1em;
 	}
 
-	.nlg-container .nlg-logo {
-		max-width: 91%;
+	.top-partners-container .partner-logo {
+		max-width: 40%;
+		margin: 0 0.5em;
+	}
+
+	.partner {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
 	}
 
 }
