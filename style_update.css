@@ -730,14 +730,6 @@ form#update-signup input[type="submit"] {
 	justify-content: center;
 }
 
-.event-header img {
-	width: 30%;
-	padding: 1em;
-	display: inline-block;
-	min-width: 150px;
-	max-width: 300px;
-}
-
 .event-header h2 {
 	text-align: center;
 	padding-right: 1em;
@@ -780,21 +772,6 @@ form#update-signup input[type="submit"] {
 
 .event-info .info a {
 	margin-bottom: 2em;
-}
-
-.event-image {
-	-webkit-box-flex: 1;
-	-moz-box-flex:  1;
-	-webkit-flex:  1;
-	-ms-flex:  1;
-	flex: 1;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: center;	
-	justify-content: center;
 }
 
 .event-image img {
@@ -1138,14 +1115,6 @@ footer img {
 	.event-header h2 {
 		padding-right: 0;
 		padding: 0 0.5em;
-	}
-
-	.event-header img {
-		width: 60%;
-	}
-
-	.event-image {
-		display: none;
 	}
 
 	.contact-row {

@@ -73,6 +73,11 @@
 
 .event-header img {
 	max-width: 50%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.header-info {
+	max-width: 50%;
 }
 
 .event-header h2 {
@@ -116,14 +121,23 @@
 	background-color: #bfdfff;
 }
 
+.join-button.disabled {
+	cursor: default;
+}
+
+.join-button.disabled:hover {
+	background-color: #fbfdff;
+}
 .event-organizers {
 	max-height: 150px;
+	margin-top: 2em;
 }
 
 .event-organizers img {
 	max-height: -webkit-fill-available;
 	margin-right: 1em;
 	border-radius: 100%;
+	box-shadow: 0 3px 15px rgba(0,0,0,0.19), 0 2px 3px rgba(0,0,0,0.23);
 }
 
 .event-description {
@@ -132,8 +146,20 @@
 }
 
 .event-description p {
-	font-size: 1.3em;
+	font-size: 1.1em;
 	line-height: 1.4em;
+}
+
+.event-description ul {
+		 margin-top: -1em;
+    font-family: 'Proxima-regular', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    text-align: left;
+	}
+
+.speaker-container {
+	display: inline-block;
 }
 
 .speaker {
@@ -142,12 +168,17 @@
   vertical-align: top;
   width: 20%;
   position: relative;
-  height: 280px;
   background-size: cover;
   background-position: 50%;
   background-blend-mode: lighten;
   -webkit-filter: contrast(1.2);
   filter: contrast(1.2);
+  min-width: 15em;
+	min-height: 15em;
+	height: 100%;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .speaker-content {
@@ -170,11 +201,35 @@
 
 .speaker-organisation {
 	font-size: .9em;
-  margin: .5em 0 0;
+  margin: 0;
 }
 
-#random-name {
-	background-image: url('https://placehold.it/500x500')
+#randomname {
+	background-image: url('https://placehold.it/500x500');
+}
+#andreas-albertsson {
+	background-image: url('../img/2018/personer/andreas-albertsson.jpg');
+}
+#anna-bjurstrom {
+	background-image: url('../img/2018/personer/anna-bjurstrom.jpg');
+}
+#carl-heath {
+	background-image: url('../img/2018/personer/carl-heath.jpg');
+}
+#hege-tollerud {
+	background-image: url('../img/2018/personer/hege-tollerud.jpg');
+}
+#jannie-jeppesen {
+	background-image: url('../img/2018/personer/jannie-jeppesen.jpg');
+}
+#jonathan-wadstrom {
+	background-image: url('../img/2018/personer/jonathan-wadstrom.jpg');
+}
+#karin-bjerde {
+	background-image: url('../img/2018/personer/karin-bjerde.jpg');
+}
+#sophia-johansson {
+	background-image: url('../img/2018/personer/sophia-johansson.jpg');
 }
 
 @media screen and (max-device-width: 1600px) {
@@ -198,6 +253,7 @@
 	.content {
 		text-align: center;
 		margin: 0;
+		margin-top: 1em;
 	}
 
 	.breadcrumbs {
@@ -219,6 +275,8 @@
 	.header-info {
 		padding: 0.5em 1em;
 		text-align: center;
+		max-width: 100%;
+		color: white;
 	}
 
 	.event-title {
@@ -235,23 +293,33 @@
 		font-size: 1.2em;
 	}
 
+	.event-location a {
+		color: white;
+	}
+
 	.event-header img {
 		position: absolute;
     z-index: -1;
     width: 100%;
     max-width: initial;
     opacity: 0.5;
+
 	}
 
 	.event-organizers {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
 		margin-top: 1.5em;
-		max-height: 100px;
+		max-height: inherit;
 		padding: 0 1em;
 		text-align: center;
 	}
 
 	.event-organizers img {
 		margin: 0 0.5em;
+		max-height: 150px;
 	}
 
 	.event-description {
@@ -259,12 +327,15 @@
 		margin: 0 auto;
 	}
 
-	.event-description p {
+	.event-description p,
+	.event-description ul {
 		font-size: 1em;
 		text-align: left;
 	}
 
 	.speaker {
-		width: 280px;
+		min-height: 13em;
+    min-width: 45%;
+
 	}
 }
