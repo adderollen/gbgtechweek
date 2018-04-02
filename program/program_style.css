@@ -263,9 +263,64 @@ h3 {
 
 .event-thumbnail {
 	width: 5em;
-    height: 5em;
-    background-size: 100%;
-    border-radius: 100%;
+  height: 5em;
+  background-size: 100%;
+  border-radius: 100%;
+	background-image: url('https://placehold.it/250x250');
+}
+
+#gothenburg-startup-hack .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#strategic-competence .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#corporates-meets-ict-startups .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#life-science-value-creation .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#edtech .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#game-developers-lounge .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#glimstedt-breakfast .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#ida-pitch-event .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#compinn .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#venture-pitch .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#cleantech-day .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#iot-bootcamp-1 .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#iot-bootcamp-2 .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#jansson-norin-breakit .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#creative-morning .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#aw-with-glimstedt .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#code-in-the-dark .event-thumbnail {
+	background-image: url('https://placehold.it/250x250');
+}
+#gbgtechweek-dinner .event-thumbnail {
 	background-image: url('https://placehold.it/250x250');
 }
 
@@ -296,7 +351,7 @@ span.location-icon {
 	display: inline-block;
 	padding-right: 0;
 	margin: 0;
-	background-image: url('https://placehold.it/250x250');
+	background-image: url('http://flaticons.net/icons/Miscellaneous/Maps.png');
 	background-size: 100%;
 	width: 1.5em;
 	height: 1.5em;
