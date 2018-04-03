@@ -347,25 +347,42 @@ a.not-active {
 }
 
 form#update-signup input {
-	padding: 0.5em;
-	font-size: 1.5rem;
-  border: 2px solid #2196D3;
+	padding: 0.9em;
+	font-size: 1.1rem;
 }
 
 form#update-signup input[type="email"] {
-  background: rgba(255,255,255,0.8);
+  background: rgba(44, 78, 95, 0.67);
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  color: rgba(24, 149, 213, 1);
+  color: white;
+  border: 0;
+}
+
+form#update-signup input[type="email"]::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255,255,255,0.75);
+}
+form#update-signup input[type="email"]:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255,255,255,0.75);
+}
+form#update-signup input[type="email"]:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255,0.75);
+}
+form#update-signup input[type="email"]form#update-signup input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255,0.75);
+}
+form#update-signup input[type="email"]::placeholder {
+	color: rgba(255,255,255,0.75);
 }
 
 form#update-signup input[type="submit"] {
   margin-left: -6px;
-  background: #2196D3;
+  background: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  color: white;
+  color: rgb(29, 61, 77);
   cursor: pointer;
+  border: 0;
 }
 
 .social-links-container {
