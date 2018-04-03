@@ -57,7 +57,7 @@ p, .button, a {
   position: relative;
   padding-top: 100vh;
   overflow: hidden;
-  z-index: 2;
+  z-index: 3;
   opacity: 0;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
