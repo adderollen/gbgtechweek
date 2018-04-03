@@ -40,11 +40,13 @@
 	top: 155px;
 	left: 0;
 	left: calc(50% - 720px);
+	left: calc(50% - 37em);
 	width: 250px;
 }
 
 .content {
-	    margin-left: 270px;
+	margin-left: 270px;
+	margin-left: 24em;
 }
 
 .events {
@@ -455,16 +457,18 @@ span.location-link {
 		padding: 10vh 2em;
 		
 	}
+}
+
+@media screen and (max-device-width: 1300px) {
 	.sidebar {
-		left: calc(50% - 652px);
+		left: calc(50% - 33em);
 	}
 
 	.content {
-		margin-left: 370px;
+		margin-left: 18em;
+		margin-right: 1em;
 	}
-
 }
-
 
 @media screen and (max-device-width: 1200px) {
 
