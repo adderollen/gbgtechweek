@@ -22,10 +22,6 @@ li {
 	height: 100vh;
 }
 
-.background img {
-  width: 100%;
-}
-
 .press-list-container {
   text-align: center;
   padding: 6em 0;
@@ -112,12 +108,13 @@ li {
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  color: rgb(29, 61, 77);
+  color: white;
 }
 
 .press-release-img {
 	width: 100%;
 	margin-top: 1em;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .press-release-img-text {
@@ -143,12 +140,12 @@ li {
 }
 
 .press-release-info a {
-	border-bottom: 1px solid rgba(29, 61, 77, 0.3);
-	color: rgb(29, 61, 77);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	color: white;
 }
 
 .press-release-info a:hover {
-	border-bottom: 1px solid rgba(29, 61, 77, 1);
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
 .contact-container .contact-title {
