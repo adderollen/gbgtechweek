@@ -137,6 +137,16 @@ a.not-active {
 	border-color: white;
 }
 
+.ie-warning {
+	width: 100vw;
+	text-align: center;
+	background-color: rgba(255,0,0,0.75);
+	color: white;
+	padding: 0.5em;
+	font-family: 'Proxima-regular', sans-serif;
+	display: none;
+}
+
 
 /* Logo row */
 

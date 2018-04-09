@@ -205,6 +205,13 @@
 #sophia-johansson {
 	background-image: url('../img/2018/personer/sophia-johansson.jpg');
 }
+#sanna-westman {
+	background-image: url('../img/2018/personer/sanna-westman.jpg');
+}
+#monica-hedberg {
+	background-image: url('../img/2018/personer/monica-hedberg.jpg');
+}
+
 
 @media screen and (max-device-width: 1600px) {
 	.page {

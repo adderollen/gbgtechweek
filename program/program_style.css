@@ -319,9 +319,8 @@ h3 {
 	background-image: url('../img/2017/photos/glimstedt_1.jpg');
 	background-position-x: -10px;
 }
-#ida-pitch-event .event-thumbnail {
-	display: none;
-	background-image: url('../img/2017/photos/');
+#dragons-den .event-thumbnail {
+	background-image: url('../img/2018/events/dragonsden/dragons-den.jpg');
 }
 #compinn .event-thumbnail {
 	display: none;
