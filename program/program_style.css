@@ -308,6 +308,9 @@ h3 {
 	background-image: url('../img/2017/photos/sahlgrenska_3.jpg');
 	background-position-x: -40px;
 }
+#the-blockchain-track .event-thumbnail {
+	background-image: url('../img/2018/events/blockchain/ethgbg.jpg');
+}
 #edtech .event-thumbnail {
 	background-image: url('../img/2018/events/edtech/edtech.jpg');
 }
@@ -350,6 +353,14 @@ h3 {
 #creative-morning .event-thumbnail {
 	display: none;
 	background-image: url('../img/2017/photos/');
+}
+#match-made-in-heaven .event-thumbnail {
+	background-image: url('../img/2018/events/match-made-in-heaven/match-made-in-heaven.jpg');
+}
+#debate-2-create .event-thumbnail {
+	background-position-x: -9px;
+  background-size: 135%;
+	background-image: url('../img/2018/events/debate-2-create/debate-2-create.jpg');
 }
 #aw-with-glimstedt .event-thumbnail {
 	display: none;
