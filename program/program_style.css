@@ -374,6 +374,17 @@ h3 {
 	display: none;
 	background-image: url('../img/2017/photos/');
 }
+#finding-chinese-opportunities-partners-and-investors .event-thumbnail {
+	background-image: url('../img/2018/events/china/china-image.jpg');
+}
+#how-to-combine-visualization-and-nlp-to-generate-intuitive-insights .event-thumbnail {
+	background-image: url('../img/2018/events/visualization-and-nlp/visualization-and-nlp.jpg');
+}
+
+#tools-and-tricks-of-a-professional-online-poker-player .event-thumbnail {
+	background-image: url('../img/2018/events/poker-event/poker-event.jpg');
+	background-size: 165%;
+}
 
 .event-text h4 {
 	margin-top: 0;
