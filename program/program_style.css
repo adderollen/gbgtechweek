@@ -367,8 +367,9 @@ h3 {
 	background-image: url('../img/2017/photos/');
 }
 #code-in-the-dark .event-thumbnail {
-	display: none;
-	background-image: url('../img/2017/photos/');
+	background-position-x: -20px;
+  background-size: 161%;
+	background-image: url('../img/2018/events/code-in-the-dark/code-in-the-dark.jpg');
 }
 #gbgtechweek-dinner .event-thumbnail {
 	display: none;
