@@ -124,6 +124,11 @@
 	line-height: 1.4em;
 }
 
+.event-description p a {
+	color: white;
+	text-decoration: underline;
+}
+
 .event-description ul {
 		 margin-top: -1em;
     font-family: 'Proxima-regular', sans-serif;
