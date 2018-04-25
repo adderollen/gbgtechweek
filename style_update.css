@@ -395,6 +395,22 @@ form#update-signup input[type="submit"] {
   border: 0;
 }
 
+form#update-signup input[type="submit"]:hover {
+	background: #e9e9e9;
+}
+
+.program-button {
+  padding: 1em;
+  background: rgb(29, 61, 77);
+  border-radius: 14px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.program-button:hover {
+	background: #37708c;
+}
+
 .social-links-container {
 	display: -webkit-box;
 	display: -moz-box;
