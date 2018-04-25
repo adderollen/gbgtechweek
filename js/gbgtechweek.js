@@ -32,7 +32,7 @@ $(document).ready(function() {
   $('.menu').addClass('menu-animate');
   $('.page').addClass('visible-page');
 
-  if (navigator.sayswho.includes("IE")) {
+  if (navigator.sayswho.includes("IE") || navigator.sayswho.includes("Edge")) {
     $('.ie-warning').css('display','block');
   }
 
