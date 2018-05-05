@@ -137,6 +137,11 @@
     text-align: left;
 	}
 
+.event-description ul li a {
+	color: white;
+	text-decoration: underline;
+}
+
 .speaker-container {
 	display: inline-block;
 }
@@ -257,6 +262,48 @@
 }
 #stefan-farestam {
 	background-image: url('../img/2018/personer/stefan-farestam.jpg');
+}
+#jan-jongboom {
+	background-image: url('../img/2018/personer/jan-jongboom.jpg');
+}
+#magnus-castell {
+	background-image: url('../img/2018/personer/magnus-castell.jpg');
+}
+#jonas-wilhelmsson {
+	background-image: url('../img/2018/personer/jonas-wilhelmsson.jpg');
+}
+#simon-moritz {
+	background-image: url('../img/2018/personer/simon-moritz.jpg');
+}
+#magnus-leonhardt {
+	background-image: url('../img/2018/personer/magnus-leonhardt.jpg');
+}
+#anders-logg {
+	background-image: url('../img/2018/personer/anders-logg.jpg');
+}
+#mikael-eriksson {
+	background-image: url('../img/2018/personer/mikael-eriksson.jpg');
+}
+#ante-baric {
+	background-image: url('../img/2018/personer/ante-baric.jpg');
+}
+#asa-otterlund {
+	background-image: url('../img/2018/personer/asa-otterlund.jpg');
+}
+#david-griffith-jones {
+	background-image: url('../img/2018/personer/david-griffith-jones.jpg');
+}
+#anastacia-simonchik {
+	background-image: url('../img/2018/personer/anastacia-simonchik.jpg');
+}
+#pierre-reimertz {
+	background-image: url('../img/2018/personer/pierre-reimertz.jpg');
+}
+#lisa-hammarstrom {
+	background-image: url('../img/2018/personer/lisa-hammarstrom.jpg');
+}
+#jonas-nicklas {
+	background-image: url('../img/2018/personer/jonas-nicklas.jpg');
 }
 
 

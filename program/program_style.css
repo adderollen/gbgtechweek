@@ -300,11 +300,10 @@ h3 {
 	background-image: url('../img/2017/photos/');
 	display: none;
 }
-#corporates-meets-ict-startups .event-thumbnail {
-	background-image: url('../img/2017/photos/cleantech_1.jpg');
-	background-position-x: -32px;
+#innovation-corporates-and-startups-in-collaboration .event-thumbnail {
+	background-image: url('../img/2018/events/innovation-corporates-and-startups-in-collaboration/innovation-corporates-and-startups-in-collaboration.jpg');
 }
-#life-science-value-creation .event-thumbnail {
+#entrepreneurship-and-value-creation-in-life-science .event-thumbnail {
 	background-image: url('../img/2017/photos/sahlgrenska_3.jpg');
 	background-position-x: -40px;
 }
@@ -333,9 +332,10 @@ h3 {
 	background-position-x: -16px;
 	background-image: url('../img/2018/events/venture-launch/venture_launch.jpg');
 }
-#cleantech-day .event-thumbnail {
-	background-position-x: -20px;
-	background-image: url('../img/2017/photos/cleantech_3.jpg');
+#cleantech-matchmaking-day .event-thumbnail {
+	background-position-x: -22px;
+  background-position-y: -8px;
+	background-image: url('../img/2018/events/cleantech-matchmaking-day/cleantech-matchmaking-day.jpg');
 }
 #iot-bootcamp-1 .event-thumbnail {
 	background-image: url('../img/2018/events/iot_bootcamp/iot_bootcamp.jpg');
@@ -385,6 +385,31 @@ h3 {
 #tools-and-tricks-of-a-professional-online-poker-player .event-thumbnail {
 	background-image: url('../img/2018/events/poker-event/poker-event.jpg');
 	background-size: 165%;
+}
+#becoming-an-entrepreneur .event-thumbnail {
+	background-image: url('../img/2018/events/becoming-an-entrepreneur/becoming-an-entrepreneur.jpg');
+	background-size: 165%;
+}
+#how-to-realign-technology-with-humanity .event-thumbnail {
+	background-image: url('../img/2018/events/how-to-realign-technology-with-humanity/how-to-realign-technology-with-humanity.jpg');
+	background-size: 165%;
+}
+#cleantech-matchmaking-afterparty .event-thumbnail {
+	background-image: url('../img/2018/events/cleantech-matchmaking-afterparty/cleantech-matchmaking-afterparty.jpg');
+	background-position-x: -22px;
+}
+#ai-is-more-than-hopes-and-dreams .event-thumbnail {
+	background-image: url('../img/2018/events/ai-is-more-than-hopes-and-dreams/ai-is-more-than-hopes-and-dreams.jpg');
+}
+#visionarytech-headed-towards-a-new-tech-industry .event-thumbnail {
+	background-image: url('../img/2018/events/visionarytech-headed-towards-a-new-tech-industry/visionarytech-headed-towards-a-new-tech-industry.jpg');
+  background-size: 194%;
+  background-position-x: -40px;
+}
+#testing-and-continuous-integration-bbq-lunch .event-thumbnail {
+	background-image: url('../img/2018/events/testing-and-continuous-integration-bbq-lunch/testing-and-continuous-integration-bbq-lunch.jpg');
+  background-size: 178%;
+  background-position-x: -34px;
 }
 
 .event-text h4 {

@@ -8,14 +8,14 @@
 
 	<url>
 	  <loc>https://www.gbgtechweek.com/</loc>
-	  <lastmod>2018-04-02</lastmod>
+	  <lastmod>2018-05-01</lastmod>
 	  <changefreq>monthly</changefreq>
 	  <priority>0.8</priority>
 	</url>
 
 	<url>
 	  <loc>https://www.gbgtechweek.com/press</loc>
-	  <lastmod>2017-03-23</lastmod>
+	  <lastmod>2017-05-01</lastmod>
 	  <changefreq>weekly</changefreq>
 	  <priority>0.5</priority>
 	</url>
@@ -29,7 +29,7 @@
 
 	<url>
 	  <loc>https://www.gbgtechweek.com/program</loc>
-	  <lastmod>2018-04-02</lastmod>
+	  <lastmod>2018-05-01</lastmod>
 	  <changefreq>weekly</changefreq>
 	  <priority>0.8</priority>
 	</url>
@@ -42,8 +42,148 @@
 	</url>
 
 	<url>
+	  <loc>https://www.gbgtechweek.com/program/gothenburg-startup-hack</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/finding-chinese-opportunities-partners-and-investors</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/tools-and-tricks-of-a-professional-online-poker-player</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/innovation-corporates-and-startups-in-collaboration</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/the-blockchain-track</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/dragons-den</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/chalmers-venture-launch-2018</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/how-to-combine-visualization-and-nlp-to-generate-intuitive-insights</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/cleantech-matchmaking-day</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/iot-bootcamp</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/becoming-an-entrepreneur</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/debate-2-create</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/match-made-in-heaven</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/code-in-the-dark</loc>
+	  <lastmod>2018-05-01</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
 	  <loc>https://www.gbgtechweek.com/program/edtech-an-unleashed-potential-for-swedish-export</loc>
 	  <lastmod>2018-04-02</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/how-to-realign-technology-with-humanity</loc>
+	  <lastmod>2018-05-02</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/ai-is-more-than-hopes-and-dreams</loc>
+	  <lastmod>2018-05-02</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/entrepreneurship-and-value-creation-in-life-science</loc>
+	  <lastmod>2018-05-02</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/visionarytech-headed-towards-a-new-tech-industry</loc>
+	  <lastmod>2018-05-02</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/cleantech-matchmaking-afterparty</loc>
+	  <lastmod>2018-05-02</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>0.6</priority>
+	</url>
+
+	<url>
+	  <loc>https://www.gbgtechweek.com/program/testing-and-continuous-integration-bbq-lunch</loc>
+	  <lastmod>2018-05-02</lastmod>
 	  <changefreq>weekly</changefreq>
 	  <priority>0.6</priority>
 	</url>

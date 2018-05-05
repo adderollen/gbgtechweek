@@ -978,6 +978,19 @@ footer a {
 
 }
 
+.partner-link {
+	-webkit-transition: -webkit-transform .2s;
+	-moz-transition: transform .2s;
+	-ms-transition: -ms-transform .2s;
+	-o-transition: transform .2s;
+	transition: transform .2s;
+}
+.partner-link:hover {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
 .organizer-section h2 {
 	color: rgb(29, 61, 77);
 	opacity: 1;
