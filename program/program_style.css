@@ -296,9 +296,8 @@ h3 {
 	background-image: url('../img/2017/photos/startuphack_3.jpg');
 	background-position-x:-25px;
 }
-#strategic-competence .event-thumbnail {
-	background-image: url('../img/2017/photos/');
-	display: none;
+#breakfast-seminar-on-tech-sector-adapted-education .event-thumbnail {
+	background-image: url('../img/2017/photos/cleantech_2.jpg');
 }
 #innovation-corporates-and-startups-in-collaboration .event-thumbnail {
 	background-image: url('../img/2018/events/innovation-corporates-and-startups-in-collaboration/innovation-corporates-and-startups-in-collaboration.jpg');
@@ -313,10 +312,6 @@ h3 {
 #edtech .event-thumbnail {
 	background-image: url('../img/2018/events/edtech/edtech.jpg');
 }
-#game-developers-lounge .event-thumbnail {
-	display: none;
-	background-image: url('../img/2017/photos/');
-}
 #glimstedt-breakfast .event-thumbnail {
 	background-image: url('../img/2017/photos/glimstedt_1.jpg');
 	background-position-x: -10px;
@@ -325,8 +320,9 @@ h3 {
 	background-image: url('../img/2018/events/dragonsden/dragons-den.jpg');
 }
 #compinn .event-thumbnail {
-	display: none;
-	background-image: url('../img/2017/photos/');
+	background-image: url('../img/2018/events/compinn/compinn.jpg');
+	background-size: 237%;
+  background-position-x: -50px;
 }
 #venture-launch .event-thumbnail {
 	background-position-x: -16px;
@@ -410,6 +406,10 @@ h3 {
 	background-image: url('../img/2018/events/testing-and-continuous-integration-bbq-lunch/testing-and-continuous-integration-bbq-lunch.jpg');
   background-size: 178%;
   background-position-x: -34px;
+}
+#game-developers-lounge .event-thumbnail {
+	background-image: url('../img/2018/events/game-developers-lounge/game-developers-lounge.jpg');
+	background-position-x: -19px;
 }
 
 .event-text h4 {
