@@ -1,5 +1,5 @@
 var $root = $('html, body');
-$('.menu a').click(function() {
+$('.menu a.contact-link').click(function() {
     var href = $.attr(this, 'href');
     $root.animate({
         scrollTop: $(href).offset().top
@@ -8,6 +8,7 @@ $('.menu a').click(function() {
     });
     return true;
 });
+
 
 navigator.sayswho= (function(){
     var ua= navigator.userAgent, tem,
@@ -36,6 +37,41 @@ $(document).ready(function() {
     $('.ie-warning').css('display','block');
   }
 
+/*
+  let index = window.location.href.indexOf("program");
+  let logString = "";
+
+
+  if (index > 0) {
+    logString = window.location.href.substr(index+("program".length));
+    if (logString.length > 3) {
+      logString = logString.substr(1,logString.length-2);
+    } else {
+      logString = "program";
+    }
+  } else {
+    index = window.location.href.indexOf("press");
+    if (index > 0) {
+      logString = window.location.href.substr(index+("press".length));
+      if (logString.length > 3) {
+        logString = logString.substr(1,logString.length-2);
+      } else {
+        logString = "press";
+      }
+    } else {
+      if (window.location.href.indexOf("last-year") > 0) {
+        logString = "last-year";
+      } else {
+        logString = "first-page";
+      }
+    }
+  }
+
+  fbq('track', 'ViewContent', {
+    content_ids: logString,
+  });
+
+*/
 })
 
 function postToGoogle(){
@@ -83,99 +119,6 @@ $('.schedule-event-link').not('.external-link').click(function(evt) {
   daySwitchClick(href);
 })
 
-var daySwitchClick = function(href) {
-  if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
-    switch(href) {
-      case "#venturecup":
-        switchDay("day2")
-        break;
-      case "#glimstedt":
-        switchDay("day2")
-        break;
-      case "#craftacademy":
-        switchDay("day2")
-        break;
-      case "#unionen":
-        switchDay("day3")
-        break;
-      case "#fvpd":
-        switchDay("day3")
-        break;
-      case "#postitapp":
-        switchDay("day3")
-        break;
-      case "#almi":
-        switchDay("day3")
-        break;
-      case "#cse":
-        switchDay("day3")
-        break;
-      case "#lindholmen":
-        switchDay("day3")
-        break;
-      case "#osfs":
-        switchDay("day3")
-        break;
-      case "#startupbar":
-        switchDay("day3")
-        break;
-      case "#fvpd2":
-        switchDay("day4")
-        break;
-      case "#chalmersventures":
-        switchDay("day4")
-        break;
-      case "#insight":
-        switchDay("day4")
-        break;
-      case "#orten":
-        switchDay("day4")
-        break;
-      case "#siliconvallgatan":
-        switchDay("day4")
-        break;
-      case "#guventures":
-        switchDay("day4")
-        break;
-      case "#sahlgrenska":
-        switchDay("day4")
-        break;
-      case "#joinastartup":
-        switchDay("day5")
-        break;
-      case "#drivhuset":
-        switchDay("day5")
-        break;
-      case "#findwise":
-        switchDay("day5")
-        break;
-      case "#tillvaxtverket":
-        switchDay("day5")
-        break;
-      case "#chinapreneurs":
-        switchDay("day5");
-        break;
-      case "#techineast":
-        switchDay("day5");
-        break;
-      case "#janssonnorin":
-        switchDay("day5")
-        break;
-      case "#startuphack":
-        switchDay("day6")
-        break;
-      case "#beeryoga":
-        switchDay("day6")
-        break;
-    }
-  }
-
-  $root.animate({
-        scrollTop: $(href).offset().top
-    }, 1000, function () {
-        window.location.hash = href;
-    });
-}
 
 var switchDay = function(day) {
   if (eventDay === "") {
