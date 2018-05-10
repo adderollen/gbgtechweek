@@ -417,6 +417,9 @@ h3 {
 #inside-the-mind-of-a-tech-investor .event-thumbnail {
 	background-image: url('../img/2018/events/inside-the-mind-of-a-tech-investor/inside-the-mind-of-a-tech-investor.jpg');
 }
+#venture-cup .event-thumbnail {
+	background-image: url('../img/2018/events/venture-cup/venture-cup.jpg');
+}
 
 .event-text h4 {
 	margin-top: 0;
@@ -439,6 +442,7 @@ span.event-location {
 	padding: 0;
 	min-width: 170px;
 	padding-right: 0;
+	display: inline-flex;
 }
 
 span.location-icon {
@@ -447,6 +451,7 @@ span.location-icon {
 	margin: 0;
 	background-image: url('../img/2018/location-icon.png');
 	background-size: 100%;
+	background-repeat: no-repeat;
 	width: 1.5em;
 	height: 1.5em;
 }
