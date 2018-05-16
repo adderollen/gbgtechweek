@@ -349,8 +349,9 @@ h3 {
 #jansson-norin-breakit .event-thumbnail {
 	background-image: url('../img/2017/photos/janssonnorin_breakit_3.jpg');
 }
-#creative-morning .event-thumbnail {
-	display: none;
+#creative-mornings .event-thumbnail {
+	background-image: url('../img/2018/events/creative-mornings/creative-mornings.jpg');
+	background-position-x: -22px;
 }
 #match-made-in-heaven .event-thumbnail {
 	background-image: url('../img/2018/events/match-made-in-heaven/match-made-in-heaven.jpg');
