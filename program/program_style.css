@@ -293,7 +293,7 @@ h3 {
 }
 
 #gothenburg-startup-hack .event-thumbnail {
-	background-image: url('../img/2017/photos/startuphack_3.jpg');
+	background-image: url('../img/2018/events/gothenburg-startup-hack/startuphack_3.jpg');
 	background-position-x:-25px;
 }
 #breakfast-seminar-on-tech-sector-adapted-education .event-thumbnail {
@@ -314,10 +314,6 @@ h3 {
 }
 #edtech .event-thumbnail {
 	background-image: url('../img/2018/events/edtech/edtech.jpg');
-}
-#glimstedt-breakfast .event-thumbnail {
-	background-image: url('../img/2017/photos/glimstedt_1.jpg');
-	background-position-x: -10px;
 }
 #dragons-den .event-thumbnail {
 	background-image: url('../img/2018/events/dragonsden/dragons-den.jpg');
@@ -345,9 +341,6 @@ h3 {
 	background-image: url('../img/2018/events/iot_bootcamp/iot_bootcamp.jpg');
 	background-size: 200%;
 	background-position-x: -20px;
-}
-#jansson-norin-breakit .event-thumbnail {
-	background-image: url('../img/2017/photos/janssonnorin_breakit_3.jpg');
 }
 #creative-mornings .event-thumbnail {
 	background-image: url('../img/2018/events/creative-mornings/creative-mornings.jpg');
@@ -413,7 +406,7 @@ h3 {
 	background-position-x: -19px;
 }
 #lets-talk-about-scale .event-thumbnail {
-	background-image: url('../img/2017/photos/tillvaxtverket_2.jpg');
+	background-image: url('../img/2018/events/lets-talk-about-scale/tillvaxtverket_2.jpg');
 }
 #inside-the-mind-of-a-tech-investor .event-thumbnail {
 	background-image: url('../img/2018/events/inside-the-mind-of-a-tech-investor/inside-the-mind-of-a-tech-investor.jpg');
@@ -421,6 +414,17 @@ h3 {
 #venture-cup .event-thumbnail {
 	background-image: url('../img/2018/events/venture-cup/venture-cup.jpg');
 }
+#tedxgothenburg-salon .event-thumbnail {
+	background-image: url('../img/2018/events/tedxgothenburg-salon/tedxgothenburg-salon.jpg');
+	background-size: 200%;
+  background-position-x: -41px;
+}
+#ucl-with-forza .event-thumbnail {
+	background-image: url('../img/2018/events/ucl-with-forza/ucl-with-forza.jpg');
+	background-size: 200%;
+  background-position-x: -41px;
+}
+
 
 .event-text h4 {
 	margin-top: 0;

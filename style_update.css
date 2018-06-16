@@ -349,6 +349,15 @@ a.not-active {
 	font-size: 4rem;
 }
 
+.signup-container a {
+	color: white;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.signup-container a:hover {
+	border-color: white;
+}
+
 .signup-container .thanks {
 	color: white;
 	margin-top: 1em;
