@@ -74,15 +74,20 @@
     </nav>
     <span class="ie-warning">This website does not perform well on Internet Explorer, since it's the worst browser ever made. Please start using a proper one like Google Chrome, Safari or Mozilla Firefox.</span>
   </div>
-  
+  <!--Remove the blurrer class to get it unblurred -->
+  <div class="blurrer" onclick="console.log('onClick');event.stopPropagation()" onmouseover="console.log('onClick');event.stopPropagation()">
+    <h1 class="center-text">
+      Comming soon.
+    </h1>
+  </div>
   <div class="background-image"></div>
   <div class="background"></div>
-    
+
   <div class="page">
     <aside class="sidebar">
       <h1 class="title">Program 2018</h1>
       <div class="day-selector-container">
-        
+
         <div class="day-selector">
           <div class="day" data-day="pre-events">
             <a href="#pre-events" class="day-link">Pre Events</a>

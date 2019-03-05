@@ -5,6 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
+		filter:blur(10px);
 }
 
 .sidebar {
@@ -14,6 +15,19 @@
 	left: calc(50% - 720px);
 	left: calc(50% - 37em);
 	width: 250px;
+}
+.blurrer {
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.blurrer h1 {
+	font-size: 131px;
+	color:white;
 }
 
 .content {
