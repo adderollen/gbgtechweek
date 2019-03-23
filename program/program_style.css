@@ -289,145 +289,37 @@ h3 {
   border-radius: 100%;
 	background-image: url('../img/logo/gtw_logo_blue_gray.png');
 	background-repeat: no-repeat;
-  background-size: 150%;
+  background-size: 100%;
+}
+
+/* 2019 event */
+#iot-bootcamp .event-thumbnail {
+	background-image: url('../img/2019/events/5g-iot-bootcamp/5g-iot-bootcamp.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
+#sustainable-you .event-thumbnail {
+	background-image: url('../img/2019/events/sustainable-you/sustainable-you.jpg');
+	background-position-x:-14px;
+	background-size: 150%;
+}
+
+#orten-io-hammarkullen .event-thumbnail {
+	background-image: url('../img/2019/events/orten-io-hammarkullen/logo-orten2.jpg');
 }
 
 #driving-innovation .event-thumbnail {
 	background-image: url('../img/2019/events/driving-innovation/driving-innovation.jpg');
-	background-position-x:-25px;
+	background-position-x:-5px;
+	background-size: 150%;
 }
 
-#gothenburg-startup-hack .event-thumbnail {
-	background-image: url('../img/2018/events/gothenburg-startup-hack/startuphack_3.jpg');
-	background-position-x:-25px;
-}
-#breakfast-seminar-on-tech-sector-adapted-education .event-thumbnail {
-	background-image: url('../img/2018/events/how-could-education-be-reformed/how-could-education-be-reformed.jpg');
-	background-size: 263%;
-  background-position-x: -63px;
 
-}
-#innovation-corporates-and-startups-in-collaboration .event-thumbnail {
-	background-image: url('../img/2018/events/innovation-corporates-and-startups-in-collaboration/innovation-corporates-and-startups-in-collaboration.jpg');
-}
-#entrepreneurship-and-value-creation-in-life-science .event-thumbnail {
-	background-image: url('../img/2018/events/entrepreneurship-and-value-creation-in-life-science/entrepreneurship-and-value-creation-in-life-science.jpg');
-	background-position-x: -19px;
-}
-#the-blockchain-track .event-thumbnail {
-	background-image: url('../img/2018/events/blockchain/ethgbg.jpg');
-}
-#edtech .event-thumbnail {
-	background-image: url('../img/2018/events/edtech/edtech.jpg');
-}
-#dragons-den .event-thumbnail {
-	background-image: url('../img/2018/events/dragonsden/dragons-den.jpg');
-}
-#compinn .event-thumbnail {
-	background-image: url('../img/2018/events/compinn/compinn.jpg');
-	background-size: 237%;
-  background-position-x: -50px;
-}
-#venture-launch .event-thumbnail {
-	background-position-x: -16px;
-	background-image: url('../img/2018/events/venture-launch/venture_launch.jpg');
-}
-#cleantech-matchmaking-day .event-thumbnail {
-	background-position-x: -22px;
-  background-position-y: -8px;
-	background-image: url('../img/2018/events/cleantech-matchmaking-day/cleantech-matchmaking-day.jpg');
-}
-#iot-bootcamp-1 .event-thumbnail {
-	background-image: url('../img/2018/events/iot_bootcamp/iot_bootcamp.jpg');
-	background-size: 200%;
-	background-position-x: -20px;
-}
-#iot-bootcamp-2 .event-thumbnail {
-	background-image: url('../img/2018/events/iot_bootcamp/iot_bootcamp.jpg');
-	background-size: 200%;
-	background-position-x: -20px;
-}
-#creative-mornings .event-thumbnail {
-	background-image: url('../img/2018/events/creative-mornings/creative-mornings.jpg');
-	background-position-x: -22px;
-}
-#match-made-in-heaven .event-thumbnail {
-	background-image: url('../img/2018/events/match-made-in-heaven/match-made-in-heaven.jpg');
-}
-#debate-2-create .event-thumbnail {
-	background-position-x: -9px;
-  background-size: 135%;
-	background-image: url('../img/2018/events/debate-2-create/debate-2-create.jpg');
-}
-#aw-with-glimstedt .event-thumbnail {
-	background-image: url('../img/2018/events/aw-with-glimstedt/aw-with-glimstedt.jpg');
-}
-#code-in-the-dark .event-thumbnail {
-	background-position-x: -20px;
-  background-size: 161%;
-	background-image: url('../img/2018/events/code-in-the-dark/code-in-the-dark.jpg');
-}
-#gbgtechweek-dinner .event-thumbnail {
-	display: none;
-}
-#finding-chinese-opportunities-partners-and-investors .event-thumbnail {
-	background-image: url('../img/2018/events/china/china-image.jpg');
-}
-#how-to-combine-visualization-and-nlp-to-generate-intuitive-insights .event-thumbnail {
-	background-image: url('../img/2018/events/visualization-and-nlp/visualization-and-nlp.jpg');
-}
-
-#tools-and-tricks-of-a-professional-online-poker-player .event-thumbnail {
-	background-image: url('../img/2018/events/poker-event/poker-event.jpg');
-	background-size: 165%;
-}
-#becoming-an-entrepreneur .event-thumbnail {
-	background-image: url('../img/2018/events/becoming-an-entrepreneur/becoming-an-entrepreneur.jpg');
-	background-size: 165%;
-}
-#how-to-realign-technology-with-humanity .event-thumbnail {
-	background-image: url('../img/2018/events/how-to-realign-technology-with-humanity/how-to-realign-technology-with-humanity.jpg');
-	background-size: 165%;
-}
-#cleantech-matchmaking-afterparty .event-thumbnail {
-	background-image: url('../img/2018/events/cleantech-matchmaking-afterparty/cleantech-matchmaking-afterparty.jpg');
-	background-position-x: -22px;
-}
-#ai-is-more-than-hopes-and-dreams .event-thumbnail {
-	background-image: url('../img/2018/events/ai-is-more-than-hopes-and-dreams/ai-is-more-than-hopes-and-dreams.jpg');
-}
-#visionarytech-headed-towards-a-new-tech-industry .event-thumbnail {
-	background-image: url('../img/2018/events/visionarytech-headed-towards-a-new-tech-industry/visionarytech-headed-towards-a-new-tech-industry_2.jpg');
-  background-size: 219%;
-  background-position-x: -52px;
-}
-#testing-and-continuous-integration-bbq-lunch .event-thumbnail {
-	background-image: url('../img/2018/events/testing-and-continuous-integration-bbq-lunch/testing-and-continuous-integration-bbq-lunch.jpg');
-  background-size: 178%;
-  background-position-x: -34px;
-}
-#game-developers-lounge .event-thumbnail {
-	background-image: url('../img/2018/events/game-developers-lounge/game-developers-lounge.jpg');
-	background-position-x: -19px;
-}
-#lets-talk-about-scale .event-thumbnail {
-	background-image: url('../img/2018/events/lets-talk-about-scale/tillvaxtverket_2.jpg');
-}
-#inside-the-mind-of-a-tech-investor .event-thumbnail {
-	background-image: url('../img/2018/events/inside-the-mind-of-a-tech-investor/inside-the-mind-of-a-tech-investor.jpg');
-}
-#venture-cup .event-thumbnail {
-	background-image: url('../img/2018/events/venture-cup/venture-cup.jpg');
-}
-#tedxgothenburg-salon .event-thumbnail {
-	background-image: url('../img/2018/events/tedxgothenburg-salon/tedxgothenburg-salon.jpg');
-	background-size: 200%;
-  background-position-x: -41px;
-}
-#ucl-with-forza .event-thumbnail {
-	background-image: url('../img/2018/events/ucl-with-forza/ucl-with-forza.jpg');
-	background-size: 200%;
-  background-position-x: -41px;
+#passion-for-sustainability .event-thumbnail {
+	background-image: url('../img/2019/events/passion-for-sustainability/passion-for-sustainability.jpg');
+	background-position-x:-39px;
+	background-size: 150%;
 }
 
 

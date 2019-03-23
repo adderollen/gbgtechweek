@@ -23,52 +23,52 @@ $('.sidebar .day-link').click(function() {
     return true;
 });
 
-let offsetLimit = 400;
+let offsetLimit = 300;
 
-var waypoint = new Waypoint({
+/*var waypoint = new Waypoint({
   element: document.getElementById('pre-events'),
   handler: function(direction) {
     let href = '#pre-events';
     setCorrectDay(href);
   },
   offset: 100,
-})
+})*/
 var waypoint = new Waypoint({
-  element: document.getElementById('2018-05-21'),
+  element: document.getElementById('2019-05-06'),
   handler: function(direction) {
-    let href = '#2018-05-21';
+    let href = '#2019-05-06';
     setCorrectDay(href);
   },
   offset: offsetLimit,
 })
 var waypoint = new Waypoint({
-  element: document.getElementById('2018-05-22'),
+  element: document.getElementById('2019-05-07'),
   handler: function(direction) {
-    let href = '#2018-05-22';
+    let href = '#2019-05-07';
     setCorrectDay(href);
   },
   offset: offsetLimit,
 })
 var waypoint = new Waypoint({
-  element: document.getElementById('2018-05-23'),
+  element: document.getElementById('2019-05-08'),
   handler: function(direction) {
-    let href = '#2018-05-23';
+    let href = '#2019-05-08';
     setCorrectDay(href);
   },
   offset: offsetLimit,
 })
 var waypoint = new Waypoint({
-  element: document.getElementById('2018-05-24'),
+  element: document.getElementById('2019-05-09'),
   handler: function(direction) {
-    let href = '#2018-05-24';
+    let href = '#2019-05-09';
     setCorrectDay(href);
   },
   offset: offsetLimit,
 })
 var waypoint = new Waypoint({
-  element: document.getElementById('2018-05-25'),
+  element: document.getElementById('2019-05-10'),
   handler: function(direction) {
-    let href = '#2018-05-25';
+    let href = '#2019-05-10';
     setCorrectDay(href);
   },
   offset: 600,
