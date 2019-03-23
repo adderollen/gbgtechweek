@@ -292,10 +292,14 @@ h3 {
   background-size: 150%;
 }
 
-#driving-innovation .event-thumbnail {
+#2019-driving-innovation .event-thumbnail {
 	background-image: url('../img/2019/events/driving-innovation/driving-innovation.jpg');
 	background-position-x:-25px;
 }
+
+#orten-io-hammarkullen .event-thumbnail {
+	background-image: url('../img/2019/events/orten-io-hammarkullen/disrupting-the-perception.jpg');
+	background-position-x:-25px;
 
 #gothenburg-startup-hack .event-thumbnail {
 	background-image: url('../img/2018/events/gothenburg-startup-hack/startuphack_3.jpg');
