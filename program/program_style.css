@@ -197,7 +197,7 @@ h3 {
   position: relative;
   width: calc(100% - 150px);
   box-sizing: border-box;
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(0,0,0,0.5);
   -webkit-transition: background-color .2s;
 	-moz-transition: background-color .2s;
 	-ms-transition: background-color .2s;
@@ -311,10 +311,6 @@ h3 {
 	background-size: 150%;
 }
 
-#orten-io-hammarkullen .event-thumbnail {
-	background-image: url('../img/2019/events/orten-io-hammarkullen/logo-orten2.jpg');
-}
-
 #driving-innovation .event-thumbnail {
 	background-image: url('../img/2019/events/driving-innovation/driving-innovation.jpg');
 	background-position-x:-5px;
@@ -325,6 +321,16 @@ h3 {
 	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
 	background-position-x:-67px;
 	background-size: 275%;
+}
+
+#legal-advice .event-thumbnail {
+	background-image: url('../img/2019/events/legal-advice/legal-advice.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
+#orten-io-hammarkullen .event-thumbnail {
+	background-image: url('../img/2019/events/orten-io-hammarkullen/logo-orten2.jpg');
 }
 
 #passion-for-sustainability .event-thumbnail {
