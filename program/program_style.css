@@ -293,6 +293,12 @@ h3 {
 }
 
 /* 2019 event */
+#startup-jungle-tuesday .event-thumbnail {
+	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
 #iot-bootcamp .event-thumbnail {
 	background-image: url('../img/2019/events/5g-iot-bootcamp/5g-iot-bootcamp.jpg');
 	background-position-x:-67px;
@@ -315,6 +321,11 @@ h3 {
 	background-size: 150%;
 }
 
+#startup-jungle-thursday .event-thumbnail {
+	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
 
 #passion-for-sustainability .event-thumbnail {
 	background-image: url('../img/2019/events/passion-for-sustainability/passion-for-sustainability.jpg');
