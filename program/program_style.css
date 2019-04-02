@@ -295,7 +295,13 @@ h3 {
 /* 2019 event */
 
 #compinn .event-thumbnail {
-	background-image: url('../img/2019/events/compinn/compinn.jpg');
+	background-image: url('../img/2019/events/compinn/compinn.png');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
+#how-to-build-a-great-company .event-thumbnail {
+	background-image: url('../img/2019/events/how-to-build-a-great-company/how-to-build-a-great-company.jpg');
 	background-position-x:-67px;
 	background-size: 275%;
 }
