@@ -312,6 +312,12 @@ h3 {
 	background-size: 275%;
 }
 
+#wom-tech-at-volvo-group .event-thumbnail {
+	background-image: url('../img/2019/events/wom-tech-at-volvo-group/wom-tech-at-volvo-group.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
 #iot-bootcamp .event-thumbnail {
 	background-image: url('../img/2019/events/5g-iot-bootcamp/5g-iot-bootcamp.jpg');
 	background-position-x:-67px;
