@@ -330,6 +330,12 @@ h3 {
 	background-size: 150%;
 }
 
+#watch-this-space .event-thumbnail {
+	background-image: url('../img/2019/events/watch-this-space/watch-this-space.jpg');
+	background-position-x:-14px;
+	background-size: 150%;
+}
+
 #driving-innovation .event-thumbnail {
 	background-image: url('../img/2019/events/driving-innovation/driving-innovation.jpg');
 	background-position-x:-5px;
