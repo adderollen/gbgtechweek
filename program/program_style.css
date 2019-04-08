@@ -300,6 +300,12 @@ h3 {
 	background-size: 275%;
 }
 
+#test-event .event-thumbnail {
+	background-image: url('../img/2019/events/test-event/test-event-thumbnail.jpg');
+	background-position-x: -86px;
+  background-size: 208%;
+}
+
 #how-to-build-a-great-company .event-thumbnail {
 	background-image: url('../img/2019/events/how-to-build-a-great-company/how-to-build-a-great-company.jpg');
 	background-position-x:-67px;

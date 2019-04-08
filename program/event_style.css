@@ -199,6 +199,9 @@
 #randomname {
 	background-image: url('https://placehold.it/500x500');
 }
+#test-event-person {
+	background-image: url('../img/2019/events/test-event/test-event-thumbnail.jpg');
+}
 #andreas-albertsson {
 	background-image: url('../img/2018/personer/andreas-albertsson.jpg');
 }
