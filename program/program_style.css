@@ -358,6 +358,12 @@ h3 {
 	background-image: url('../img/2019/events/orten-io-hammarkullen/logo-orten2.jpg');
 }
 
+#the-world-is-going-flat .event-thumbnail {
+	background-image: url('../img/2019/events/the-world-is-going-flat/the-world-is-going-flat.jpg');
+	background-position-x:-39px;
+	background-size: 150%;
+}
+
 #passion-for-sustainability .event-thumbnail {
 	background-image: url('../img/2019/events/passion-for-sustainability/passion-for-sustainability.jpg');
 	background-position-x:-39px;
