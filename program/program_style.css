@@ -295,15 +295,15 @@ h3 {
 /* 2019 event */
 
 #compinn .event-thumbnail {
-	background-image: url('../img/2019/events/compinn/compinn.jpg');
+	background-image: url('../img/2019/events/compinn/compinn.png');
 	background-position-x:-67px;
 	background-size: 275%;
 }
 
 #how-to-build-a-great-company .event-thumbnail {
-	background-image: url('../img/2019/events/how-to-build-a-great-company/how-to-build-a-great-company.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
+	background-image: url('../img/2019/events/how-to-build-a-great-company/emmy-och-elin.jpg');
+	    background-position-x: 0;
+    background-size: 113%;
 }
 
 #startup-jungle-tuesday .event-thumbnail {
@@ -314,8 +314,8 @@ h3 {
 
 #wom-tech-at-volvo-group .event-thumbnail {
 	background-image: url('../img/2019/events/wom-tech-at-volvo-group/wom-tech-at-volvo-group.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
+	    background-position-x: -2px;
+    background-size: 208%;
 }
 
 #iot-bootcamp .event-thumbnail {
@@ -332,8 +332,8 @@ h3 {
 
 #watch-this-space .event-thumbnail {
 	background-image: url('../img/2019/events/watch-this-space/watch-this-space.jpg');
-	background-position-x:-14px;
-	background-size: 150%;
+	    background-position-x: -4px;
+    background-size: 177%;
 }
 
 #driving-innovation .event-thumbnail {
