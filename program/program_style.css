@@ -318,6 +318,12 @@ h3 {
     background-size: 208%;
 }
 
+#startups-are-cool .event-thumbnail {
+	background-image: url('../img/2019/events/startups-are-cool/startups-are-cool.jpeg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
 #iot-bootcamp .event-thumbnail {
 	background-image: url('../img/2019/events/5g-iot-bootcamp/5g-iot-bootcamp.jpg');
 	background-position-x:-67px;
@@ -330,16 +336,22 @@ h3 {
 	background-size: 150%;
 }
 
-#watch-this-space .event-thumbnail {
-	background-image: url('../img/2019/events/watch-this-space/watch-this-space.jpg');
-	    background-position-x: -4px;
-    background-size: 177%;
+#sustainability-inclusion .event-thumbnail {
+	background-image: url('../img/2019/events/sustainability-inclusion/sustainability-inclusion.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
 }
 
-#driving-innovation .event-thumbnail {
-	background-image: url('../img/2019/events/driving-innovation/driving-innovation.jpg');
-	background-position-x:-5px;
-	background-size: 150%;
+#boundaries-of-work .event-thumbnail {
+	background-image: url('../img/2019/events/the-boundaries-of-work/the-boundaries-of-work.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
+#future-of-electrification .event-thumbnail {
+	background-image: url('../img/2019/events/future-of-electrification/future-of-electrification.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
 }
 
 #startup-jungle-thursday .event-thumbnail {
@@ -356,6 +368,24 @@ h3 {
 
 #orten-io-hammarkullen .event-thumbnail {
 	background-image: url('../img/2019/events/orten-io-hammarkullen/logo-orten2.jpg');
+}
+
+#watch-this-space .event-thumbnail {
+	background-image: url('../img/2019/events/watch-this-space/watch-this-space.jpg');
+	    background-position-x: -4px;
+    background-size: 177%;
+}
+
+#innovation-blockchain-sustainability .event-thumbnail {
+	background-image: url('../img/2019/events/innovation-blockchain-sustainability/innovation-blockchain-sustainability.jpg');
+	    background-position-x: -4px;
+    background-size: 177%;
+}
+
+#driving-innovation .event-thumbnail {
+	background-image: url('../img/2019/events/driving-innovation/driving-innovation.jpg');
+	background-position-x:-5px;
+	background-size: 150%;
 }
 
 #the-world-is-going-flat .event-thumbnail {
