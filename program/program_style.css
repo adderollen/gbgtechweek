@@ -306,6 +306,12 @@ h3 {
     background-size: 113%;
 }
 
+#deep-learning-autonomous-vehicles .event-thumbnail {
+	background-image: url('../img/2019/events/deep-learning-autonomous-vehicles/deep-learning-autonomous-vehicles.jpg');
+	background-position-x:-67px;
+	background-size: 200%;
+}
+
 #startup-jungle-tuesday .event-thumbnail {
 	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
 	background-position-x:-67px;
@@ -328,6 +334,18 @@ h3 {
 	background-image: url('../img/2019/events/5g-iot-bootcamp/5g-iot-bootcamp.jpg');
 	background-position-x:-67px;
 	background-size: 275%;
+}
+
+#meet-the-ocean-robots .event-thumbnail {
+	background-image: url('../img/2019/events/meet-the-ocean-robots/meet-the-ocean-robots.png');
+	background-position-x:-50px;
+	background-size: 200%;
+}
+
+#dare-to-think-again .event-thumbnail {
+	background-image: url('../img/2019/events/dare-to-think-again/dare-to-think-again.jpg');
+	background-position-x:-50px;
+	background-size: 200%;
 }
 
 #sustainable-you .event-thumbnail {
