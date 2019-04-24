@@ -436,6 +436,12 @@ h3 {
 	background-size: 150%;
 }
 
+#sri-lanka .event-thumbnail {
+	background-image: url('../img/2019/events/sri-lanka/sri-lanka.jpg');
+	background-position-x:-39px;
+	background-size: 200%;
+}
+
 
 .event-text h4 {
 	margin-top: 0;
