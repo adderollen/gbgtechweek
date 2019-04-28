@@ -306,6 +306,18 @@ h3 {
     background-size: 113%;
 }
 
+#tech-trends .event-thumbnail {
+	background-image: url('../img/2019/events/tech-trends/tech-trends.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
+#how-to-build-a-great-company .event-thumbnail {
+	background-image: url('../img/2019/events/how-to-build-a-great-company/emmy-och-elin.jpg');
+	    background-position-x: 0;
+    background-size: 113%;
+}
+
 #deep-learning-autonomous-vehicles .event-thumbnail {
 	background-image: url('../img/2019/events/deep-learning-autonomous-vehicles/deep-learning-autonomous-vehicles.jpg');
 	background-position-x:-67px;
@@ -316,6 +328,12 @@ h3 {
 	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
 	background-position-x:-67px;
 	background-size: 275%;
+}
+
+#applied-ai .event-thumbnail {
+	background-image: url('../img/2019/events/lindholmen-applied-ai/applied-ai.jpg');
+	background-position-x:-0px;
+	background-size: 200%;
 }
 
 #taking-risk .event-thumbnail {
