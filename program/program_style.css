@@ -324,6 +324,12 @@ h3 {
 	background-size: 200%;
 }
 
+#ai-connect .event-thumbnail {
+	background-image: url('../img/2019/events/ai-connect/ai-connect.jpg');
+	background-position-x:-67px;
+	background-size: 200%;
+}
+
 #startup-jungle-tuesday .event-thumbnail {
 	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
 	background-position-x:-67px;
