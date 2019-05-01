@@ -402,6 +402,12 @@ h3 {
 	background-size: 275%;
 }
 
+#dinner .event-thumbnail {
+	background-image: url('../img/2019/events/dinner/dinner.jpg');
+	background-position-x:-0px;
+	background-size: 150%;
+}
+
 #boundaries-of-work .event-thumbnail {
 	background-image: url('../img/2019/events/the-boundaries-of-work/the-boundaries-of-work.jpg');
 	background-position-x:-67px;
@@ -416,6 +422,12 @@ h3 {
 
 #startup-jungle-thursday .event-thumbnail {
 	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
+	background-position-x:-67px;
+	background-size: 275%;
+}
+
+#bang .event-thumbnail {
+	background-image: url('../img/2019/events/bang/bang.jpg');
 	background-position-x:-67px;
 	background-size: 275%;
 }
