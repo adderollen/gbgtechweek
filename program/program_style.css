@@ -357,7 +357,7 @@ h3 {
 #start-up-to-scale-up .event-thumbnail {
 	background-image: url('../img/2019/events/start-up-to-scale-up/start-up-to-scale-up.jpg');
 	    background-position-x: -2px;
-    background-size: 208%;
+    background-size: 250%;
 }
 
 #startups-are-cool .event-thumbnail {
@@ -400,6 +400,12 @@ h3 {
 	background-image: url('../img/2019/events/sustainability-inclusion/sustainability-inclusion.jpg');
 	background-position-x:-67px;
 	background-size: 275%;
+}
+
+#microwave-road .event-thumbnail {
+	background-image: url('../img/2019/events/microwave-road/microwave-road.jpg');
+	background-position-x:-67px;
+	background-size: 200%;
 }
 
 #dinner .event-thumbnail {
