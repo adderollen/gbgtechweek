@@ -25,6 +25,30 @@ $('.sidebar .day-link').click(function() {
 
 let offsetLimit = 300;
 
+let daysThisYear = ["2019-05-06","2019-05-07","2019-05-08","2019-05-09","2019-05-10","2019-05-11"];
+
+$(document).ready(function() {
+  let todaysDate = new Date().toJSON().slice(0,10).replace(/-/g,'-');
+  if (daysThisYear.indexOf(todaysDate)) {
+    let href = "#"+todaysDate
+    setCorrectDay(href);
+    $root.animate({
+        scrollTop: $(href).offset().top-100
+    }, 1000, function () {
+        window.location.hash = href;
+        dayAnimation = true;
+    });
+
+    if (previousDaySelected !== href) {
+      $(this).toggleClass('active');
+      if (previousDaySelected) {
+        $('.sidebar .day[data-day="'+previousDaySelected.substring(1)+'"] .day-link').toggleClass('active');  
+      }   
+      previousDaySelected = href;
+    }
+  }
+});
+
 /*var waypoint = new Waypoint({
   element: document.getElementById('pre-events'),
   handler: function(direction) {
