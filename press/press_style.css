@@ -5,7 +5,7 @@ ul  {
 }
 
 li {
-  font-family: 'Proxima-regular', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
 
 }
@@ -33,10 +33,6 @@ li {
   padding: 0;
   width: 50%;
   margin: 0 auto;
-}
-
-.press-list-container h3 {
-	font-weight: initial;
 }
 
 .material {
@@ -73,7 +69,8 @@ li {
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	margin: 0.5em;
 	background: white;
-	color: rgb(29, 61, 77);
+	color: black;
+  text-align: left;
 }
 
 .press-item:hover {
@@ -81,12 +78,13 @@ li {
 	-webkit-transform: scale(1.005);
 	-ms-transform: scale(1.005);
 	transform: scale(1.005);
-	
+
 }
 
 .press-item-date {
-	text-align: center;
 	margin: 0.2em 0;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .press-item-img {
@@ -97,11 +95,6 @@ li {
 	margin: 0.2em 0;
 	font-size: 1.5rem;
 }
-
-.press-item-intro {
-	margin: 0.5em;
-}
-
 
 .press-release-container {
 	padding: 7em 0em;

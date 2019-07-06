@@ -1,15 +1,66 @@
 .page {
-	padding-top: 10vh;
+	padding-top: 75px;
 	min-height: calc(100vh - 500px);
 	max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.city-selector-container ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.city-selector-container li {
+  display: inline-block;
+  width: 100%;
+}
+
+.city-selector-container input {
+  visibility: hidden;
+  position: absolute;
+}
+
+.city-selector-container label {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 2em;
+  font-family: 'Montserrat';
+  display: inherit;
+  text-align: center;
+  background-color: black;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.city-selector-container input:hover + label {
+    background: rgba(0,0,0,0.8);
+}
+
+.city-selector-container input:checked + label {
+    background: rgba(0,0,0,0);
+}
+
+.city-container {
+  padding: 1em;
+}
+
+.city-container.hidden{
+  display: none;
+}
+
+.city-coming-soon {
+  text-align: center;
+  margin-top: 8em;
 }
 
 .sidebar {
-	position: fixed;
-	top: 155px;
+	position: absolute;
+	top: 250px;
 	left: 0;
 	left: calc(50% - 720px);
 	left: calc(50% - 37em);
@@ -27,12 +78,12 @@
 
 h3 {
 	display: block;
-    font-size: 1.17em;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
 }
 
 .sidebar h1 {
@@ -264,6 +315,24 @@ h3 {
 	padding-right: 2em;
 }
 
+.event-link span.event-text,
+.event-link span.event-hosted-by {
+  vertical-align: top;
+  padding: 1em;
+}
+
+.event-link span.event-text {
+  width: 50%;
+}
+
+.event-link span.event-hosted-by {
+  width: 30%;
+}
+
+.event-link span.event-cta {
+  width: 20%;
+}
+
 .event-link span.category-color {
 	display: block;
 	position: absolute;
@@ -279,6 +348,10 @@ h3 {
 	background-color: green;
 }
 
+.event-link span.event-cta span {
+  float: right;
+}
+
 .event-thumbnail-container {
 	padding-right: 0;
 }
@@ -292,210 +365,11 @@ h3 {
   background-size: 100%;
 }
 
-/* 2019 event */
-
-#compinn .event-thumbnail {
+#breakfast20191007 .event-thumbnail {
 	background-image: url('../img/2019/events/compinn/compinn.png');
 	background-position-x:-67px;
 	background-size: 275%;
 }
-
-#how-to-build-a-great-company .event-thumbnail {
-	background-image: url('../img/2019/events/how-to-build-a-great-company/emmy-och-elin.jpg');
-	    background-position-x: 0;
-    background-size: 113%;
-}
-
-#tech-trends .event-thumbnail {
-	background-image: url('../img/2019/events/tech-trends/tech-trends.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#how-to-build-a-great-company .event-thumbnail {
-	background-image: url('../img/2019/events/how-to-build-a-great-company/emmy-och-elin.jpg');
-	    background-position-x: 0;
-    background-size: 113%;
-}
-
-#deep-learning-autonomous-vehicles .event-thumbnail {
-	background-image: url('../img/2019/events/deep-learning-autonomous-vehicles/deep-learning-autonomous-vehicles.jpg');
-	background-position-x:-67px;
-	background-size: 200%;
-}
-
-#ai-connect .event-thumbnail {
-	background-image: url('../img/2019/events/ai-connect/ai-connect.jpg');
-	background-position-x:-67px;
-	background-size: 200%;
-}
-
-#startup-jungle-tuesday .event-thumbnail {
-	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#applied-ai .event-thumbnail {
-	background-image: url('../img/2019/events/lindholmen-applied-ai/applied-ai.jpg');
-	background-position-x:-0px;
-	background-size: 200%;
-}
-
-#taking-risk .event-thumbnail {
-	background-image: url('../img/2019/events/taking-risk/taking-risk.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#wom-tech-at-volvo-group .event-thumbnail {
-	background-image: url('../img/2019/events/wom-tech-at-volvo-group/wom-tech-at-volvo-group.jpg');
-	    background-position-x: -2px;
-    background-size: 208%;
-}
-
-#start-up-to-scale-up .event-thumbnail {
-	background-image: url('../img/2019/events/start-up-to-scale-up/start-up-to-scale-up.jpg');
-	    background-position-x: -2px;
-    background-size: 250%;
-}
-
-#startups-are-cool .event-thumbnail {
-	background-image: url('../img/2019/events/startups-are-cool/startups-are-cool.jpeg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#iot-bootcamp .event-thumbnail {
-	background-image: url('../img/2019/events/5g-iot-bootcamp/5g-iot-bootcamp.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#meet-the-ocean-robots .event-thumbnail {
-	background-image: url('../img/2019/events/meet-the-ocean-robots/meet-the-ocean-robots.png');
-	background-position-x:-50px;
-	background-size: 200%;
-}
-
-#dare-to-think-again .event-thumbnail {
-	background-image: url('../img/2019/events/dare-to-think-again/dare-to-think-again.jpg');
-	background-position-x:-50px;
-	background-size: 200%;
-}
-
-#sustainable-you .event-thumbnail {
-	background-image: url('../img/2019/events/sustainable-you/sustainable-you.jpg');
-	background-position-x:-14px;
-	background-size: 150%;
-}
-
-#challenge-role-model .event-thumbnail {
-	background-image: url('../img/2019/events/challenge-role-model/challenge-role-model.jpeg');
-	background-position-x:-40px;
-	background-size: 200%;
-}
-
-#sustainability-inclusion .event-thumbnail {
-	background-image: url('../img/2019/events/sustainability-inclusion/sustainability-inclusion.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#microwave-road .event-thumbnail {
-	background-image: url('../img/2019/events/microwave-road/microwave-road.jpg');
-	background-position-x:-67px;
-	background-size: 200%;
-}
-
-#dinner .event-thumbnail {
-	background-image: url('../img/2019/events/dinner/dinner.jpg');
-	background-position-x:-0px;
-	background-size: 150%;
-}
-
-#boundaries-of-work .event-thumbnail {
-	background-image: url('../img/2019/events/the-boundaries-of-work/the-boundaries-of-work.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#future-of-electrification .event-thumbnail {
-	background-image: url('../img/2019/events/future-of-electrification/future-of-electrification.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#startup-jungle-thursday .event-thumbnail {
-	background-image: url('../img/2019/events/startup-jungle/startup-jungle-workshop.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#bang .event-thumbnail {
-	background-image: url('../img/2019/events/bang/bang.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#legal-advice .event-thumbnail {
-	background-image: url('../img/2019/events/legal-advice/legal-advice.jpg');
-	background-position-x:-67px;
-	background-size: 275%;
-}
-
-#orten-io-hammarkullen .event-thumbnail {
-	background-image: url('../img/2019/events/orten-io-hammarkullen/logo-orten2.jpg');
-}
-
-#watch-this-space .event-thumbnail {
-	background-image: url('../img/2019/events/watch-this-space/watch-this-space.jpg');
-	    background-position-x: -4px;
-    background-size: 177%;
-}
-
-#building-sustainable-software .event-thumbnail {
-	background-image: url('../img/2019/events/building-sustainable-software/building-sustainable-software.jpeg');
-	    background-position-x: -4px;
-    background-size: 200%;
-}
-
-#innovation-blockchain-sustainability .event-thumbnail {
-	background-image: url('../img/2019/events/innovation-blockchain-sustainability/innovation-blockchain-sustainability.jpg');
-	    background-position-x: -4px;
-    background-size: 177%;
-}
-
-#driving-innovation .event-thumbnail {
-	background-image: url('../img/2019/events/driving-innovation/driving-innovation.jpg');
-	background-position-x:-5px;
-	background-size: 150%;
-}
-
-#the-world-is-going-flat .event-thumbnail {
-	background-image: url('../img/2019/events/the-world-is-going-flat/the-world-is-going-flat.jpg');
-	background-position-x:-39px;
-	background-size: 150%;
-}
-
-#passion-for-sustainability .event-thumbnail {
-	background-image: url('../img/2019/events/passion-for-sustainability/passion-for-sustainability.jpg');
-	background-position-x:-39px;
-	background-size: 150%;
-}
-
-#sri-lanka .event-thumbnail {
-	background-image: url('../img/2019/events/sri-lanka/sri-lanka.jpg');
-	background-position-x:-39px;
-	background-size: 200%;
-}
-
-#startup-hack .event-thumbnail {
-	background-image: url('../img/2019/events/startup-hack/startup-hack.jpg');
-	background-position-x:-39px;
-	background-size: 200%;
-}
-
 
 .event-text h4 {
 	margin-top: 0;
@@ -525,7 +399,7 @@ span.location-icon {
 	display: inline-block;
 	padding-right: 0;
 	margin: 0;
-	background-image: url('../img/2018/location-icon.png');
+	background-image: url('../img/location-icon.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 1.5em;
@@ -558,10 +432,10 @@ span.location-link {
 }
 
 @media screen and (max-device-width: 1600px) {
-	
+
 	.page {
-		padding: 10vh 2em;
-		
+		padding-top: 75px;
+
 	}
 }
 
@@ -577,18 +451,21 @@ span.location-link {
 }
 
 @media screen and (max-device-width: 1200px) {
-
 	.page {
-		padding: 10vh 0;
+		padding: 75px 0;
 	}
 	.sidebar {
 		position: relative;
-	    left: initial;
-	    width: 80%;
-	    margin: 0 auto;
-	    text-align: center;
-	    top: initial;
+    left: initial;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+	  top: initial;
 	}
+
+  .city-selector-container label {
+    font-size: 0.8rem;
+  }
 
 	.day-selector-container {
 		margin: 1em 0;
